@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\bin\Debug\netcoreapp3.1\FileManager.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\bin\Debug\netcoreapp3.1\FileManager.deps.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\bin\Debug\netcoreapp3.1\FileManager.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\bin\Debug\netcoreapp3.1\FileManager.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\bin\Debug\netcoreapp3.1\FileManager.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\bin\Debug\netcoreapp3.1\FileManager.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\FileManager\obj\Debug\netcoreapp3.1\FileManager.genruntimeconfig.cache
