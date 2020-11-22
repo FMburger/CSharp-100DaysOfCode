@@ -10,7 +10,7 @@
 
 ### Day3. Sinagure pad (1)
 
-##### 參考網路文章建立簽名板, 因為程式中有些地方還需要進行除錯, 明日繼續。
+##### 參考網路文章建立簽名板, 因為程式中有些地方還需要進行除錯。
 
 ##### Reference: [Register Account with Digital Signature in ASP.NET Core MVC](https://www.youtube.com/watch?v=NUrpve7hXuM)
 
