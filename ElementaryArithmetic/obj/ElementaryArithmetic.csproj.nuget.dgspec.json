@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\SignaturePad\\SignaturePad.csproj": {}
+    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\ElementaryArithmetic\\ElementaryArithmetic.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\SignaturePad\\SignaturePad.csproj": {
+    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\ElementaryArithmetic\\ElementaryArithmetic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\SignaturePad\\SignaturePad.csproj",
-        "projectName": "SignaturePad",
-        "projectPath": "d:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\SignaturePad\\SignaturePad.csproj",
+        "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\ElementaryArithmetic\\ElementaryArithmetic.csproj",
+        "projectName": "ElementaryArithmetic",
+        "projectPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\ElementaryArithmetic\\ElementaryArithmetic.csproj",
         "packagesPath": "C:\\Users\\MSIWillard\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\SignaturePad\\obj\\",
+        "outputPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\ElementaryArithmetic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -51,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

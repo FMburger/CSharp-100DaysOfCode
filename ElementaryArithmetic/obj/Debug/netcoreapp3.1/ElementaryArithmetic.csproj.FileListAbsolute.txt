@@ -1,0 +1,13 @@
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\bin\Debug\netcoreapp3.1\ElementaryArithmetic.exe
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\bin\Debug\netcoreapp3.1\ElementaryArithmetic.deps.json
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\bin\Debug\netcoreapp3.1\ElementaryArithmetic.runtimeconfig.json
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\bin\Debug\netcoreapp3.1\ElementaryArithmetic.runtimeconfig.dev.json
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\bin\Debug\netcoreapp3.1\ElementaryArithmetic.dll
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\bin\Debug\netcoreapp3.1\ElementaryArithmetic.pdb
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.csprojAssemblyReference.cache
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.AssemblyInfoInputs.cache
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.AssemblyInfo.cs
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.csproj.CoreCompileInputs.cache
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.dll
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.pdb
+d:\Documents\C#\myProject\100DaysCodeChallenge\ElementaryArithmetic\obj\Debug\netcoreapp3.1\ElementaryArithmetic.genruntimeconfig.cache
