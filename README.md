@@ -8,7 +8,7 @@
 ##### 今天參考的是這篇 [How to Upload Files and Save in Database in ASP.NET Core MVC](https://tutexchange.com/how-to-upload-files-and-save-in-database-in-asp-net-core-mvc/), 文章寫得非常詳細, 只要按照他的步驟就能夠成功將檔案存入資料庫中。
 
 
-### Day3. Sinagure pad (1)
+### Day3. Signature pad (1)
 
 ##### 參考網路文章建立簽名板, 因為程式中有些地方還需要進行除錯。
 
