@@ -14,7 +14,14 @@
 
 ##### Reference: [Register Account with Digital Signature in ASP.NET Core MVC](https://www.youtube.com/watch?v=NUrpve7hXuM)
 
-### Day4.Elementary Arithmetic
+### Day4. Elementary Arithmetic
 
 ##### 簡易四則運算
 
+### Day5. DBConnection (1)
+
+##### 今天的目標是建立一個測試資料庫連線狀態的程式。 最後很可以沒有完成, 明天繼續。
+
+##### Reference: 
+1. [Beginners guide to accessing SQL Server through C#](https://www.codeproject.com/Articles/4416/Beginners-guide-to-accessing-SQL-Server-through-C))
+2. [How to check MySQL connection state in C#](https://stackoverflow.com/questions/20785220/how-to-check-mysql-connection-state-in-c-sharp/20785451)

@@ -1,0 +1,7 @@
+C:\Users\MSIWillard\source\repos\DBconnection\bin\Debug\DBconnection.exe.config
+C:\Users\MSIWillard\source\repos\DBconnection\bin\Debug\DBconnection.exe
+C:\Users\MSIWillard\source\repos\DBconnection\bin\Debug\DBconnection.pdb
+C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.csprojAssemblyReference.cache
+C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.csproj.CoreCompileInputs.cache
+C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.exe
+C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.pdb
