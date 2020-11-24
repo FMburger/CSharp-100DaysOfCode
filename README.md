@@ -18,7 +18,7 @@
 
 ##### 簡易四則運算
 
-### Day5. DBConnection (1)
+### Day5. DBConnection
 
 ##### SQL Server 連線測試程式。
 
