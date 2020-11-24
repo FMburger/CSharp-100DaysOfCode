@@ -20,7 +20,7 @@
 
 ### Day5. DBConnection (1)
 
-##### 今天的目標是建立一個測試資料庫連線狀態的程式。 最後很可惜沒有完成, 明天繼續。
+##### SQL Server 連線測試程式。
 
 ##### Reference: 
 1. [Beginners guide to accessing SQL Server through C#](https://www.codeproject.com/Articles/4416/Beginners-guide-to-accessing-SQL-Server-through-C))

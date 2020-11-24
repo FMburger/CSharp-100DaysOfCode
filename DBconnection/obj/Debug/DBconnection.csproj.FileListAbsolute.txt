@@ -5,3 +5,10 @@ C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.csprojAssem
 C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.csproj.CoreCompileInputs.cache
 C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.exe
 C:\Users\MSIWillard\source\repos\DBconnection\obj\Debug\DBconnection.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\bin\Debug\DBconnection.exe.config
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\bin\Debug\DBconnection.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\bin\Debug\DBconnection.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\obj\Debug\DBconnection.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\obj\Debug\DBconnection.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\obj\Debug\DBconnection.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\DBconnection\obj\Debug\DBconnection.pdb
