@@ -1,7 +1,7 @@
 # 挑戰連續編程 100 天
 
 ### Day1. 管理資料夾和檔案
-##### 第一天, 今天參考 IAmTimCorey 的教學影片, 學習如何對檔案進行存取。主要使用到 System.IO 的 Directory 類別。
+##### 第一天, 今天參考 Tim Corey 的影片 [Working With The File System in C# - Managing Folders and Files](https://www.youtube.com/watch?v=9mUuJIKq40M), 學習如何對檔案進行存取。主要使用到 System.IO 的 Directory 類別。
 
 ### Day2. 上傳檔案並將檔案存至 SQL Server
 
