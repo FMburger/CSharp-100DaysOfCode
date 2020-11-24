@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\bin\Debug\netcoreapp3.1\Multiplicationtable.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\bin\Debug\netcoreapp3.1\Multiplicationtable.deps.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\bin\Debug\netcoreapp3.1\Multiplicationtable.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\bin\Debug\netcoreapp3.1\Multiplicationtable.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\bin\Debug\netcoreapp3.1\Multiplicationtable.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\bin\Debug\netcoreapp3.1\Multiplicationtable.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\Multiplicationtable\obj\Debug\netcoreapp3.1\Multiplicationtable.genruntimeconfig.cache

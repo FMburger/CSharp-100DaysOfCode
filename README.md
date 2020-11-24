@@ -14,9 +14,11 @@
 
 ##### Reference: [Register Account with Digital Signature in ASP.NET Core MVC](https://www.youtube.com/watch?v=NUrpve7hXuM)
 
+
 ### Day4. Elementary Arithmetic
 
 ##### 簡易四則運算
+
 
 ### Day5. DBConnection
 
@@ -25,3 +27,9 @@
 ##### Reference: 
 1. [Beginners guide to accessing SQL Server through C#](https://www.codeproject.com/Articles/4416/Beginners-guide-to-accessing-SQL-Server-through-C))
 2. [How to check MySQL connection state in C#](https://stackoverflow.com/questions/20785220/how-to-check-mysql-connection-state-in-c-sharp/20785451)
+
+
+### Day6. Multiplication table
+參考網路資料後加入了標題以及輸入功能
+
+##### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
