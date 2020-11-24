@@ -14,7 +14,14 @@ namespace DBconnection
         public MSSQLConnection(string server, string userID, string password, string database)
         {
             connString = "Server=" + server + ";Database=" + database + ";User Id=" + userID + ";Password=" + password +";";
-            Console.WriteLine(IsServerConnected(connString));
+            if (IsServerConnected(connString) == true)
+            {
+                Console.WriteLine("連線成功!");
+            }
+            else
+            {
+                Console.WriteLine("連線失敗!");
+            }
         }
         private static bool IsServerConnected(string connectionString)
         {
@@ -36,16 +43,32 @@ namespace DBconnection
     {
         static void Main(string[] args)
         {
- 
-            Console.WriteLine("伺服器名稱: ");
-            string server = Console.ReadLine();
-            Console.WriteLine("使用者帳號: ");
-            string userID = Console.ReadLine();
-            Console.WriteLine("密碼: ");
-            string password = Console.ReadLine();
-            Console.WriteLine("資料庫: ");
-            string database = Console.ReadLine();
+            string server = null, userID = null, password = null, database = null;
+            
+            Console.WriteLine("---資料庫連線測試---");
+            Console.Write("伺服器名稱: ");
+            server = Console.ReadLine();
+            Console.Write("使用者帳號: ");
+            userID = Console.ReadLine();
+            Console.Write("密碼: ");
+            password = Console.ReadLine();
+            Console.Write("資料庫: ");
+            database = Console.ReadLine();
+            Console.WriteLine("");
 
+            while  (String.IsNullOrEmpty(server) | String.IsNullOrEmpty(userID) | String.IsNullOrEmpty(password) |String.IsNullOrEmpty(database))
+            {
+                Console.WriteLine("---不能有空值請重新輸入---");
+                Console.Write("伺服器名稱: ");
+                server = Console.ReadLine();
+                Console.Write("使用者帳號: ");
+                userID = Console.ReadLine();
+                Console.Write("密碼: ");
+                password = Console.ReadLine();
+                Console.Write("資料庫: ");
+                database = Console.ReadLine();
+                Console.WriteLine("");
+            }
             var conn = new MSSQLConnection(server, userID, password, database);
 
             Console.ReadLine();
