@@ -33,3 +33,5 @@
 參考網路資料後加入了標題以及輸入功能
 
 ##### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
+
+### Day7. 
