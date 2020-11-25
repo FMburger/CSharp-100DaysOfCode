@@ -34,4 +34,36 @@
 
 ##### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
 
-### Day7. 
+### Day7. Digital Clock
+##### Step by Step
+* Download DS-Digital font
+* Create Windows Form app
+* Change background
+* Add Labels
+* Add button
+* Change font
+* Coding
+##### Code
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            <!-- Formatting times -->
+            label1.Text = DateTime.Now.ToString("dddd");
+            label2.Text = DateTime.Now.ToString("HH:mm");
+            label5.Text = DateTime.Now.ToString("tt");
+            label4.Text = DateTime.Now.ToString("yyyy");
+            label3.Text = DateTime.Now.ToString("ss");
+            label6.Text = DateTime.Now.ToString("MMM:dd");
+
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            <!-- start a timer -->
+            timer1.Start();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            <!-- Exit the application -->
+            Application.Exit();
+        }
+
+##### Referencee: [Make Digital Clock using C# Visual studio basics](https://www.youtube.com/watch?v=OFQxQndIFrQ)

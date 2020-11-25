@@ -1,0 +1,10 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\bin\Debug\DigitalClock.exe.config
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\bin\Debug\DigitalClock.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\bin\Debug\DigitalClock.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.Form1.resources
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.Properties.Resources.resources
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.csproj.GenerateResource.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\DigitalClock\obj\Debug\DigitalClock.pdb
