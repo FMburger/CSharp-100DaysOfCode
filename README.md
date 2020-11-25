@@ -1,4 +1,4 @@
-# 挑戰連續編程 100 天
+# 挑戰連續 100 天 C# 編程
 
 ### Day1. 管理資料夾和檔案
 ##### 第一天, 今天參考 Tim Corey 的影片 [Working With The File System in C# - Managing Folders and Files](https://www.youtube.com/watch?v=9mUuJIKq40M), 學習如何對檔案進行存取。主要使用到 System.IO 的 Directory 類別。
