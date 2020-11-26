@@ -44,26 +44,43 @@
 * Change font
 * Coding
 ##### Code
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            <!-- Formatting times -->
-            label1.Text = DateTime.Now.ToString("dddd");
-            label2.Text = DateTime.Now.ToString("HH:mm");
-            label5.Text = DateTime.Now.ToString("tt");
-            label4.Text = DateTime.Now.ToString("yyyy");
-            label3.Text = DateTime.Now.ToString("ss");
-            label6.Text = DateTime.Now.ToString("MMM:dd");
+    private void timer1_Tick(object sender, EventArgs e)
+    {
+        <!-- Formatting times -->
+        label1.Text = DateTime.Now.ToString("dddd");
+        label2.Text = DateTime.Now.ToString("HH:mm");
+        label5.Text = DateTime.Now.ToString("tt");
+        label4.Text = DateTime.Now.ToString("yyyy");
+        label3.Text = DateTime.Now.ToString("ss");
+        label6.Text = DateTime.Now.ToString("MMM:dd");
 
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            <!-- start a timer -->
-            timer1.Start();
-        }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            <!-- Exit the application -->
-            Application.Exit();
-        }
+    }
+    private void Form1_Load(object sender, EventArgs e)
+    {
+        <!-- start a timer -->
+        timer1.Start();
+    }
+    private void button1_Click(object sender, EventArgs e)
+    {
+        <!-- Exit the application -->
+        Application.Exit();
+    }
 
 ##### Referencee: [Make Digital Clock using C# Visual studio basics](https://www.youtube.com/watch?v=OFQxQndIFrQ)
+
+### Day8. Windows Form CRUD Operations (1)
+今日參考 Youtube 上的教學影片建立 Windows Form App, 主要功能是對於 SQL Server 的資料進行 CRUD Operations, 未完的部分明天繼續
+
+
+##### .Net Core Template:
+*Windows Form App*
+
+##### Step by Step
+
+##### Features
+
+##### Code
+
+##### References:  
+1. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 1/2)](https://www.youtube.com/watch?v=mw4TmD2AMtA)
+2. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 2/2)](https://www.youtube.com/watch?v=iqT0e09JCXQ)
