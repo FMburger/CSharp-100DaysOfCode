@@ -84,3 +84,6 @@
 ##### References:  
 1. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 1/2)](https://www.youtube.com/watch?v=mw4TmD2AMtA)
 2. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 2/2)](https://www.youtube.com/watch?v=iqT0e09JCXQ)
+
+### Day9. Windows Form CRUD Operations (2)
+延續昨天未完的部分

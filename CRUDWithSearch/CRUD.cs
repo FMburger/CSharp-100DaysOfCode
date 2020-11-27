@@ -6,7 +6,7 @@ namespace CRUDWithSearch
 {
     class CRUD
     {
-        public static string conString = "Data Source=MSI-WILLARD; Initial Catalog = TestDB; User Id=sa; Password=Gbkarate";
+        public static string conString = "Data Source=MSI-WILLARD; Initial Catalog = CRUDOperation; User Id=sa; Password=Gbkarate";
         public static string sql = string.Empty;
         public static SqlConnection con = new SqlConnection(conString);
         public static SqlCommand cmd = default(SqlCommand);
