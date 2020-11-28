@@ -7,18 +7,18 @@ namespace CRUDWithSearch
     class CRUD
     {
         public static string conString = "Data Source=MSI-WILLARD; Initial Catalog = CRUDOperation; User Id=sa; Password=Gbkarate";
+        //Initial connection string
         public static string sql = string.Empty;
         public static SqlConnection con = new SqlConnection(conString);
         public static SqlCommand cmd = default(SqlCommand);
 
         public static DataTable PerformCRUD(SqlCommand com)
         {
-            SqlDataAdapter da = default(SqlDataAdapter);
             DataTable dt = new DataTable();
 
             try
             {
-                da = new SqlDataAdapter();
+                SqlDataAdapter da = new SqlDataAdapter();
                 da.SelectCommand = com;
                 da.Fill(dt);
 

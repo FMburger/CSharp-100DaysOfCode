@@ -87,7 +87,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.seaerchButton_Click);
+            this.button1.Click += new System.EventHandler(this.SearchButtonClick);
             // 
             // keywordTextBox
             // 
@@ -150,7 +150,7 @@
             this.deleteButton.TabIndex = 8;
             this.deleteButton.Text = "Delete()";
             this.deleteButton.UseVisualStyleBackColor = true;
-            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            this.deleteButton.Click += new System.EventHandler(this.DeleteButtonClick);
             // 
             // updateButton
             // 
@@ -161,7 +161,7 @@
             this.updateButton.TabIndex = 9;
             this.updateButton.Text = "Update()";
             this.updateButton.UseVisualStyleBackColor = true;
-            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            this.updateButton.Click += new System.EventHandler(this.UpdateButtonClick);
             // 
             // insertButton
             // 
@@ -172,7 +172,7 @@
             this.insertButton.TabIndex = 10;
             this.insertButton.Text = "Insert";
             this.insertButton.UseVisualStyleBackColor = true;
-            this.insertButton.Click += new System.EventHandler(this.insertButton_Click);
+            this.insertButton.Click += new System.EventHandler(this.InsertButtonClick);
             // 
             // dgv1
             // 
@@ -182,7 +182,7 @@
             this.dgv1.RowTemplate.Height = 24;
             this.dgv1.Size = new System.Drawing.Size(720, 252);
             this.dgv1.TabIndex = 11;
-            this.dgv1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1_CellClick);
+            this.dgv1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1CellClick);
             // 
             // genderCombobox
             // 
@@ -214,7 +214,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CRUDForm";
             this.Text = "CRUDForm";
-            this.Load += new System.EventHandler(this.CRUDForm_Load);
+            this.Load += new System.EventHandler(this.CRUDFormLoad);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();

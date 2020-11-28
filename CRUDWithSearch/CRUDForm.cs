@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using CRUDWithSearch;
 
 namespace CRUDWithSearch
 {
@@ -12,10 +13,10 @@ namespace CRUDWithSearch
         public CRUDForm()
         {
             InitializeComponent();
-            resetME();
+            ResetMe();
         }
 
-        private void resetME()
+        private void ResetMe()
         {
             firstNameTextBox.Clear();
             lastNameTextBox.Clear();
@@ -30,15 +31,16 @@ namespace CRUDWithSearch
             deleteButton.Text = "Delete ()";
         }
 
-        private void CRUDForm_Load(object sender, EventArgs e)
+        private void CRUDFormLoad(object sender, EventArgs e)
         {
-            loadData("");
+            LoadData("");
         }
 
-        private void loadData(string keyword)
+        private void LoadData(string keyword)
         {
-            CRUD.sql = "SEELCT AUTO_ID, FIRST_NAME, LAST_NAME, [FIRST_NAME] + ' ' + [LAST_NAME] AS FULL_NAME, GENDER FROM TBL_CRUD " +
-                        "WHERE CAST([AUTO_ID] AS nvarchar) + ' ' + [FIRST_NAME] + ' ' + [LAST_NAME] LIKE '%' + @keyword + '%' OR [GENDER] = @keyword";
+            CRUD.sql = "SElECT AUTO_ID, FIRST_NAME, LAST_NAME, FIRST_NAME + LAST_NAME AS FULL_NAME, GENDER " +
+                    "FROM TBL_CRUD " +
+                    "WHERE FIRST_NAME + LAST_NAME LIKE '%" + keyword + "%' OR GENDER = '" + keyword + "'";
 
             CRUD.cmd = new SqlCommand(CRUD.sql, CRUD.con);
             CRUD.cmd.Parameters.Clear();
@@ -75,7 +77,7 @@ namespace CRUDWithSearch
             }
         }
 
-        private void execute(string msSql, string param)
+        private void Execute(string msSql, string param)
         {
             CRUD.cmd = new SqlCommand(msSql, CRUD.con);
             AddParameters(param);
@@ -95,32 +97,34 @@ namespace CRUDWithSearch
             }
         }
 
-        private void insertButton_Click(object sender, EventArgs e)
+        private void InsertButtonClick(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(firstNameTextBox.Text.Trim()) ||
                 string.IsNullOrEmpty(lastNameTextBox.Text.Trim()))
             {
                 MessageBox.Show(
                     "Please input first name and last name.",
-                    "Insert Date: iBasskung Tutorial",
+                    "Insert Date: ",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
                 return;
             }
 
-            CRUD.sql = "INSERT INTO TBL_CRUD(FIRST_NAME, LAST_NAME, GENDER) VALUSE(@firstName, @lastName, @gender)";
-            execute(CRUD.sql, "insert");
+            CRUD.sql = "INSERT INTO TBL_CRUD(" +
+                "FIRST_NAME, LAST_NAME, GENDER) " +
+                "VALUES('" + firstNameTextBox.Text + "', '" + lastNameTextBox.Text + "', '" + genderCombobox.SelectedItem + "')";
+            Execute(CRUD.sql, "insert");
 
-            MessageBox.Show("The record has been saved.", "Insert Data : iBasskung Tutorial", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("The record has been saved.", "Insert Data : ", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            loadData("");
+            LoadData("");
 
-            resetME();
+            ResetMe();
 
 
         }
 
-        private void dgv1_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dgv1CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex != -1)
             {
@@ -136,11 +140,11 @@ namespace CRUDWithSearch
             }
         }
 
-        private void updateButton_Click(object sender, EventArgs e)
+        private void UpdateButtonClick(object sender, EventArgs e)
         {
             if (dgv1.Rows.Count == 0)
             {
-                MessageBox.Show(dgv1.Rows.Count.ToString() + " No rows found.", "Update Data : iBasskung Tutorial",
+                MessageBox.Show(dgv1.Rows.Count.ToString() + " No rows found.", "Update Data : ",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
                 return;
@@ -148,7 +152,7 @@ namespace CRUDWithSearch
             if (updateButton.Text == "Update ()")
             {
                 MessageBox.Show("The record has been saved.",
-                   "Insert Data : iBasskung Tutorial",
+                   "Insert Data : ",
                    MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
                 return;
@@ -157,26 +161,27 @@ namespace CRUDWithSearch
                 string.IsNullOrEmpty(lastNameTextBox.Text.Trim()))
             {
                 MessageBox.Show("Please input first name and last name.",
-                    "Insert Data : iBasskung Tutorial", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    "Insert Data : ", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
             CRUD.sql = "UPDATE TBL_CRUD SET FIRST_NAME = @firstName, LAST_NAME = @lastName, GENDER = @gender WHERE AUTO_ID = @id";
 
-            execute(CRUD.sql, "Update");
+            Execute(CRUD.sql, "Update");
 
             MessageBox.Show("The record has been updated.",
-                   "Insert Data : iBasskung Tutorial", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   "Insert Data : ", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            loadData("");
+            LoadData("");
 
-            resetME();
+            ResetMe();
         }
-        private void deleteButton_Click(object sender, EventArgs e)
+
+        private void DeleteButtonClick(object sender, EventArgs e)
         {
             if (dgv1.Rows.Count == 0)
             {
-                MessageBox.Show(dgv1.Rows.Count.ToString() + " No rows found.", "Update Data : iBasskung Tutorial",
+                MessageBox.Show(dgv1.Rows.Count.ToString() + " No rows found.", "Update Data : ",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
                 return;
@@ -185,39 +190,40 @@ namespace CRUDWithSearch
             if (deleteButton.Text == "Delete ()")
             {
                 MessageBox.Show("The record has been saved.",
-                   "Insert Data : iBasskung Tutorial",
+                   "Insert Data : ",
                    MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
                 return;
             }
 
             if(MessageBox.Show("Do you want to permanently delete the selected record",
-                    "Delete Data : iBasskung Tutorial",
+                    "Delete Data : ",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question,
                     MessageBoxDefaultButton.Button1) == DialogResult.Yes)
             {
                 CRUD.sql = "DELETE FROM TBL_CRUD WHERE AUTO_ID, = @id";
-                execute(CRUD.sql, "Delete");
-                MessageBox.Show("The record has been deleted", "Delete Data : iBasskung Tutorial",
+                Execute(CRUD.sql, "Delete");
+                MessageBox.Show("The record has been deleted", "Delete Data : ",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
-                loadData("");
+                LoadData("");
             }
-            resetME();
+            ResetMe();
         }
-        private void seaerchButton_Click(object sender, EventArgs e)
+
+        private void SearchButtonClick(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(keywordTextBox.Text.Trim()))
             {
-                loadData("");
+                LoadData("");
             }
             else
             {
-                loadData(keywordTextBox.Text.Trim());
+                LoadData(keywordTextBox.Text.Trim());
             }
 
-            resetME();
+            ResetMe();
 
             if (keywordTextBox.CanSelect)
             {
