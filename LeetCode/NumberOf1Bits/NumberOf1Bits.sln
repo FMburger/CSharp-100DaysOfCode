@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationTable", "MultiplicationTable.csproj", "{F75D76DA-2FED-48DE-B8C2-1A84F6795B0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOf1Bits", "NumberOf1Bits.csproj", "{2B1F77A1-B756-438D-BB6B-A2132F040960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F75D76DA-2FED-48DE-B8C2-1A84F6795B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F75D76DA-2FED-48DE-B8C2-1A84F6795B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F75D76DA-2FED-48DE-B8C2-1A84F6795B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F75D76DA-2FED-48DE-B8C2-1A84F6795B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1F77A1-B756-438D-BB6B-A2132F040960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1F77A1-B756-438D-BB6B-A2132F040960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1F77A1-B756-438D-BB6B-A2132F040960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1F77A1-B756-438D-BB6B-A2132F040960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {158994D9-6A4D-494E-9256-FC30130FAEAF}
+		SolutionGuid = {D3B5C675-9760-4547-BF7E-7E8983259F80}
 	EndGlobalSection
 EndGlobal

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N51bDV+aBesncccXlh2F+ndjHHEHteoDVI29gO2Sx6IGta/JkthP6iJ/7C6wvgALFMzws06wWRfO5Ju5cl4wTg==",
+  "dgSpecHash": "gZWXocgdUerITxYXGaCN0S1MiyyFsPgknqih3UE7hSPFR8AxAIvBcyhRmQQ2nlnpujBX7WrR9Ubq7Ui1CjPvKA==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\Multiplicationtable.csproj",
+  "projectFilePath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\MultiplicationTable.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

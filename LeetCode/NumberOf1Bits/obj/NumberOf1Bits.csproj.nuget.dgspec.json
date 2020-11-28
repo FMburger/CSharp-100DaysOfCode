@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\MultiplicationTable.csproj": {}
+    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\NumberOf1Bits\\NumberOf1Bits.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\MultiplicationTable.csproj": {
+    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\NumberOf1Bits\\NumberOf1Bits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\MultiplicationTable.csproj",
-        "projectName": "MultiplicationTable",
-        "projectPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\MultiplicationTable.csproj",
+        "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\NumberOf1Bits\\NumberOf1Bits.csproj",
+        "projectName": "NumberOf1Bits",
+        "projectPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\NumberOf1Bits\\NumberOf1Bits.csproj",
         "packagesPath": "C:\\Users\\MSIWillard\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\Multiplicationtable\\obj\\",
+        "outputPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\NumberOf1Bits\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

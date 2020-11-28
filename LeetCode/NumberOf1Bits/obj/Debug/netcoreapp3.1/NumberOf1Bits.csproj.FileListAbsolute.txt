@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\bin\Debug\netcoreapp3.1\NumberOf1Bits.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\bin\Debug\netcoreapp3.1\NumberOf1Bits.deps.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\bin\Debug\netcoreapp3.1\NumberOf1Bits.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\bin\Debug\netcoreapp3.1\NumberOf1Bits.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\bin\Debug\netcoreapp3.1\NumberOf1Bits.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\bin\Debug\netcoreapp3.1\NumberOf1Bits.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\NumberOf1Bits\obj\Debug\netcoreapp3.1\NumberOf1Bits.genruntimeconfig.cache

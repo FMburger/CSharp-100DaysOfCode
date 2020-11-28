@@ -87,3 +87,25 @@
 
 ### Day9. Windows Form CRUD Operations (2)
 延續昨天未完的部分
+
+### Day10. [LeetCode-191] Number of 1 Bits
+
+##### Step by Step
+1. Convert uint to string
+2. Convert string to char array
+3. Foreach char array and find the number of 1
+
+##### Code:
+     public int HammingWeight(uint n) {
+        string s = Convert.ToString(n, 2); // Convert uint ot string
+        char[] ch = s.ToCharArray();       // Convert string to char array
+        int num = 0;              
+        foreach (char c in ch)             // Foreach char array and find the number of 1
+        {
+            if(c == '1')
+            {
+                num = num + 1;
+            }
+        }
+        return num;
+    }
