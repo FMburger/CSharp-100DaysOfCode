@@ -93,14 +93,14 @@
 ##### Step by Step
 1. Convert uint to string
 2. Convert string to char array
-3. Foreach char array and find the number of 1
+3. Foreach char array and count the number of 1s
 
 ##### Code:
      public int HammingWeight(uint n) {
         string s = Convert.ToString(n, 2); // Convert uint ot string
         char[] ch = s.ToCharArray();       // Convert string to char array
         int num = 0;              
-        foreach (char c in ch)             // Foreach char array and find the number of 1
+        foreach (char c in ch)             // Foreach char array and count the number of 1s
         {
             if(c == '1')
             {
