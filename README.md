@@ -112,6 +112,7 @@
     }
 
 ### Day11. [LeetCode-1] Two Sum
+這題算是蠻簡單的, 只要使用兩個 for loop 就能找出組成 target 的兩個數。
 
 ##### Code:
     public static int[] TwoSum(int[] nums, int target)
