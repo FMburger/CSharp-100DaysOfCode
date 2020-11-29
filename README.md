@@ -96,7 +96,8 @@
 3. Foreach char array and count the number of 1s
 
 ##### Code:
-     public int HammingWeight(uint n) {
+    public int HammingWeight(uint n) 
+    {
         string s = Convert.ToString(n, 2); // Convert uint ot string
         char[] ch = s.ToCharArray();       // Convert string to char array
         int num = 0;              
@@ -109,3 +110,24 @@
         }
         return num;
     }
+
+### Day11. [LeetCode-1] Two Sum
+
+##### Code:
+    public static int[] TwoSum(int[] nums, int target)
+    {
+        for (int i = nums.Length - 1; i >= 0; i--)
+        {
+            for (int j = 0; j <= i - 1; j++)
+            {
+                if (nums[j] + nums[i] == target)
+                {
+                    int[] num = { j, i };
+                    return num;
+                }
+            }
+
+        }
+        return null;
+    }
+
