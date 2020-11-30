@@ -88,7 +88,7 @@
 ### Day9. Windows Form CRUD Operations (2)
 延續昨天未完的部分
 
-### Day10. [LeetCode-191] Number of 1 Bits
+### Day10. [LeetCode-#191] Number of 1 Bits
 
 ##### Step by Step
 1. Convert uint to string
@@ -111,7 +111,7 @@
         return num;
     }
 
-### Day11. [LeetCode-1] Two Sum
+### Day11. [LeetCode-#1] Two Sum
 這題算是蠻簡單的, 只要使用兩個 for loop 就能找出組成 target 的兩個數。
 
 ##### Code:
@@ -131,4 +131,30 @@
         }
         return null;
     }
+
+### Day12. [LeetCode-#709, #190] To Lower Case, Reverse Bits
+第一題算是非常簡單的題目, 只需要使用.ToLower() 就能完成。
+第二題則複雜很多, 第一步會先將 Unsigned integer 轉換成一個 Binary string, 再使用 PadLeft() 以 '0' 填充 Binary string 左邊空格的部分, 填充後再將這個 Binary string 轉換成一個 char array。 當然, 這題最主要的還是要進行 Reverse bits, 最後使用了一個 for loop 結合 swap 的方式進行轉換。
+##### Step by Step (#190)
+1. Convert uint to binary string
+2. Pad the  binary string with leading zeros
+3. Convert to char array
+4. Reverse bits
+
+##### Code (#190)
+    public uint reverseBits(uint n) {
+        string binary = Convert.ToString(n, 2);
+        char[] ch = binary.PadLeft(32, '0').ToCharArray();
+        char[] c = new char[1];
+        for (int i=0; i < 16; i++)                         // 左右互換
+        {
+            c[0] = ch[i];
+            ch[i] = ch[31-i];
+            ch[31-i] = c[0];
+        }
+        string s = new string(ch);
+        uint parsed = Convert.ToUInt32(s, 2);
+        return parsed;
+    }
+
 

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseBits", "ReverseBits.csproj", "{85B85BFF-8EE5-423D-9823-44D615C09E40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85B85BFF-8EE5-423D-9823-44D615C09E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B85BFF-8EE5-423D-9823-44D615C09E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B85BFF-8EE5-423D-9823-44D615C09E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B85BFF-8EE5-423D-9823-44D615C09E40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C8E7E0-9F2F-48F9-B219-C2BB351C6211}
+	EndGlobalSection
+EndGlobal

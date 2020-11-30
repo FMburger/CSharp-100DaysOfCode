@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\bin\Debug\netcoreapp3.1\ToLowerCase.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\bin\Debug\netcoreapp3.1\ToLowerCase.deps.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\bin\Debug\netcoreapp3.1\ToLowerCase.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\bin\Debug\netcoreapp3.1\ToLowerCase.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\bin\Debug\netcoreapp3.1\ToLowerCase.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\bin\Debug\netcoreapp3.1\ToLowerCase.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\ToLowerCase\obj\Debug\netcoreapp3.1\ToLowerCase.genruntimeconfig.cache
