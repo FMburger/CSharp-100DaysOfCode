@@ -24,7 +24,7 @@
 
 ##### SQL Server 連線測試程式。
 
-##### Reference: 
+##### Reference:
 1. [Beginners guide to accessing SQL Server through C#](https://www.codeproject.com/Articles/4416/Beginners-guide-to-accessing-SQL-Server-through-C))
 2. [How to check MySQL connection state in C#](https://stackoverflow.com/questions/20785220/how-to-check-mysql-connection-state-in-c-sharp/20785451)
 
@@ -156,5 +156,38 @@
         uint parsed = Convert.ToUInt32(s, 2);
         return parsed;
     }
+
+### Day13. [LeetCode-#136, #287] Single Number, Find the Duplicate Number
+今天這兩題的作法都是先將陣列進行排序, 在判斷是否和下一位數相同或是相異。如果能找出 Single Number, 那一定也能找出 Duplicate Number。
+
+##### Step by Step (#136)
+1. Sorting array
+2. Find the single number
+
+##### Code (#136)
+    public int SingleNumber(int[] nums) {
+        // Sorting array
+        Array.Sort(nums);
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (i == ( nums.Length - 1))
+            {
+                return nums[i];
+            }
+            else
+            {
+                // Find the single number
+                if (nums[i] != nums[i + 1] && ((i + 1) % 2) == 1)
+                {
+                    return nums[i];
+                }
+            }
+        }
+        return 1;
+            
+    }
+
+##### Reference: [Different ways to sort an array in descending order in C#](https://www.geeksforgeeks.org/different-ways-to-sort-an-array-in-descending-order-in-c-sharp/#:~:text=Method%201%3A%20Using%20Array.Sort,and%20Array.Reverse()%20Method&text=Sort()%20method%20which%20sorts,Reverse()%20method.&text=int%20%5B%5D%20arr%20%3D%20new%20int,Sort%20array%20in%20ascending%20order.)
 
 

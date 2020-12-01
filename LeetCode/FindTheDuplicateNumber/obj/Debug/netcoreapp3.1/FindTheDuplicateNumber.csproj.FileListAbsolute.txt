@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\bin\Debug\netcoreapp3.1\FindTheDuplicateNumber.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\bin\Debug\netcoreapp3.1\FindTheDuplicateNumber.deps.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\bin\Debug\netcoreapp3.1\FindTheDuplicateNumber.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\bin\Debug\netcoreapp3.1\FindTheDuplicateNumber.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\bin\Debug\netcoreapp3.1\FindTheDuplicateNumber.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\bin\Debug\netcoreapp3.1\FindTheDuplicateNumber.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\FindTheDuplicateNumber\obj\Debug\netcoreapp3.1\FindTheDuplicateNumber.genruntimeconfig.cache
