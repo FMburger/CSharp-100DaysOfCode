@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\bin\Debug\netcoreapp3.1\Maximum69Number.exe
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\bin\Debug\netcoreapp3.1\Maximum69Number.deps.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\bin\Debug\netcoreapp3.1\Maximum69Number.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\bin\Debug\netcoreapp3.1\Maximum69Number.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\bin\Debug\netcoreapp3.1\Maximum69Number.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\bin\Debug\netcoreapp3.1\Maximum69Number.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.dll
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.pdb
+D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\Maximum69Number\obj\Debug\netcoreapp3.1\Maximum69Number.genruntimeconfig.cache

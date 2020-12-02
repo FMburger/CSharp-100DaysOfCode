@@ -190,4 +190,36 @@
 
 ##### Reference: [Different ways to sort an array in descending order in C#](https://www.geeksforgeeks.org/different-ways-to-sort-an-array-in-descending-order-in-c-sharp/#:~:text=Method%201%3A%20Using%20Array.Sort,and%20Array.Reverse()%20Method&text=Sort()%20method%20which%20sorts,Reverse()%20method.&text=int%20%5B%5D%20arr%20%3D%20new%20int,Sort%20array%20in%20ascending%20order.)
 
+### Day14. [LeetCode-#1323] Maximum 69 Number
+由左至右, 將發現的第一個 6 替換成 9, 結束。 
+
+
+##### Faster than 100%
+ ![fastThan100](Img/faster_than_100_percent.PNG)
+
+##### Step by Step
+1. Convert integer to char array
+2. Find and place digit 6 to 9
+3. Convert char array to string
+4. Convert string to integer
+
+##### Code
+    public class Solution {
+        public int Maximum69Number (int num) {
+            char[] arr = num.ToString().ToCharArray();
+            for (int i=0; i < arr.Length; i++)
+            {
+                if (arr[i] == '6')
+                {
+                    arr[i] = '9';
+                    break;
+                }
+            }
+            string str = new string(arr);
+            int x = Int32.Parse(str);
+            return x;
+        }
+    }
+
+
 
