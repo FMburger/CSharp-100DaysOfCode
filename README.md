@@ -194,7 +194,7 @@
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
 
 
-##### Faster than 100%
+##### Faster than 100% :tada::tada::tada::tada::tada:
  ![fastThan100](Img/faster_than_100_percent.PNG)
 
 ##### Step by Step
