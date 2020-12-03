@@ -221,5 +221,26 @@
         }
     }
 
+### Day15. [LeetCode-#344] Reverse String
+即使這題只要使用 Array.Reverse 方法就能夠很輕易地解決, 我還是有想出自己的解法。 我的方式是使用 Swap two nubmers 結合 for loop 做左右互換, 而 for loop 只要執行 array s 長度的一半即可。 
+
+##### Step by Step
+1. Declare a one-dimensional char array c
+2. Reverse the array s using for loop (half of array)
+
+##### Code
+    public void ReverseString(char[] s) {
+        char[] c = new char[1];
+        for (int i = 0; i < (s.Length) / 2; i++)
+        {
+            c[0] = s[i];
+            s[i] = s[s.Length - 1 - i];
+            s[s.Length - 1 - i] = c[0];
+        }
+    }
+
+##### Reference: [Array.Reverse Method](https://docs.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-5.0)
+
+
 
 

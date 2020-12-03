@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.exe
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.deps.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.genruntimeconfig.cache
