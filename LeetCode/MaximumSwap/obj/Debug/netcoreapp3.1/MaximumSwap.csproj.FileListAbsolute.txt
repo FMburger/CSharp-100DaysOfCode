@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\bin\Debug\netcoreapp3.1\MaximumSwap.exe
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\bin\Debug\netcoreapp3.1\MaximumSwap.deps.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\bin\Debug\netcoreapp3.1\MaximumSwap.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\bin\Debug\netcoreapp3.1\MaximumSwap.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\bin\Debug\netcoreapp3.1\MaximumSwap.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\bin\Debug\netcoreapp3.1\MaximumSwap.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\MaximumSwap\obj\Debug\netcoreapp3.1\MaximumSwap.genruntimeconfig.cache

@@ -226,7 +226,7 @@
 
 ##### Step by Step
 1. Declare a one-dimensional char array c
-2. Reverse the array s using for loop (half of array)
+2. Reverse the char array s using for loop (half of array)
 
 ##### Code
     public void ReverseString(char[] s) {
@@ -240,6 +240,52 @@
     }
 
 ##### Reference: [Array.Reverse Method](https://docs.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-5.0)
+
+### Day16. [LeetCode-#670] Maximum Swap
+今天時間有點緊迫, 只是做了一題 Medium 就有點卡關, 其他的明天繼續。
+
+##### Step by Step
+
+##### Code
+    public int MaximumSwap(int num) {
+        string s = Convert.ToString(num);
+        char[] ch = s.ToCharArray();
+        char[] ch2 = new char[ch.Length];
+        
+        for (int i = 0; i < ch.Length-1; i++)
+        {
+            if(ch[i]=='9'){
+                continue;
+            }
+            else
+            {
+                int n = i;
+                for(int j = i + 1; j < ch.Length; j++)
+                {
+                    if(ch[n] < ch[j] && ch2[n] != 'x')
+                    {
+                        n = j;
+                    }
+                }
+                if(n != i)
+                {
+                    char[] ch1 = new char[1];
+                    ch1[0] = ch[i];
+                    ch[i] = ch[n];
+                    ch[n] = ch1[0];
+                    
+                    ch2[n] = 'x';
+                    
+                    
+                }
+            }
+        }
+        string s2 = new string(ch);
+        int parsed = Convert.ToInt32(s2);
+        return parsed;
+    }
+
+
 
 
 
