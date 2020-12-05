@@ -16,8 +16,7 @@
 
 
 ### Day4. Elementary Arithmetic
-
-##### 簡易四則運算
+簡易四則運算
 
 
 ### Day5. DBConnection
@@ -35,6 +34,7 @@
 ##### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
 
 ### Day7. Digital Clock
+
 ##### Step by Step
 * Download DS-Digital font
 * Create Windows Form app
@@ -135,6 +135,7 @@
 ### Day12. [LeetCode-#709, #190] To Lower Case, Reverse Bits
 第一題算是非常簡單的題目, 只需要使用.ToLower() 就能完成。
 第二題則複雜很多, 第一步會先將 Unsigned integer 轉換成一個 Binary string, 再使用 PadLeft() 以 '0' 填充 Binary string 左邊空格的部分, 填充後再將這個 Binary string 轉換成一個 char array。 當然, 這題最主要的還是要進行 Reverse bits, 最後使用了一個 for loop 結合 swap 的方式進行轉換。
+
 ##### Step by Step (#190)
 1. Convert uint to binary string
 2. Pad the  binary string with leading zeros
@@ -199,7 +200,6 @@
 ### Day14. [LeetCode-#1323] Maximum 69 Number
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
 
-
 ##### Faster than 100% :tada::tada::tada::tada::tada:
  ![fastThan100](Img/faster_than_100_percent.PNG)
 
@@ -249,6 +249,7 @@
 
 ### Day16. [LeetCode-#670] Maximum Swap
 找出轉換後最大的數且只有一次轉換的機會, 那就必須能知道當前的數字是否已經是最大的數。在判斷的過程中如果確認已經找到是最大的數, 則會 Swap two number 並且回傳轉換後的值。
+
 ##### Step by Step
 1. Convert int to string
 2. Convert string to char array
@@ -296,3 +297,36 @@
             return num;
         }
     }
+
+### Day17. DOCX to HTML
+今天使用 Aspose.Words for .NET API, 程式碼的部分也很簡單。 
+
+##### .Net Core Template:
+*Console Application*
+
+##### Step by Step
+1. Install nuget package
+2. Set Directory path
+3. Load DOCX file
+4. Initialize HtmlSaveOptions
+5. Convert DOCX to HTML
+
+##### Code
+    static void Main(string[] args)
+    {
+        string dataDir = "\\Documents\\C#\\myProject\\100DaysOfCode\\FileConversion\\Files\\";
+        // Load the document from disk.
+        Document doc = new Document(dataDir + "test.docx");
+
+        // Set HtmlSaveOptions
+        HtmlSaveOptions options = new HtmlSaveOptions();
+        options.SaveFormat = SaveFormat.Html;
+
+        // Save the document into HTML
+        doc.Save(dataDir + "Document.html", options);
+    }
+
+##### References
+1. [Convert Word DOC or DOCX to HTML, MHTML in C# VB.NET](https://blog.aspose.com/2020/10/02/convert-word-doc-or-docx-to-html-mhtml-csharp-vb-net/)
+2. [Aspose.Words 20.12.0 (Nuget)](https://www.nuget.org/packages/Aspose.Words/)
+3. [Sample .doc and .docx download](https://file-examples.com/index.php/sample-documents-download/sample-doc-download/)
