@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WpfQKMDiOpCqXTIPyT1PPGF45dPvrFgApNwZR2vEBebVRMKGk8vg8vNJpyY9EPo0JT6OYg4axnlL78LCKcnfLg==",
+  "dgSpecHash": "J2H1cVIntiwXTZaAE4zIsCUjqzNXf15LqeA+s4rm8NXzbi7moMLGppfoRGbbo1GPMSnpFa80Fq4IqhYx56I2fQ==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\SingleNumber\\SingleNumber.csproj",
+  "projectFilePath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\LeetCode\\SingleNumber\\SingleNumber.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -188,7 +188,13 @@
             
     }
 
-##### Reference: [Different ways to sort an array in descending order in C#](https://www.geeksforgeeks.org/different-ways-to-sort-an-array-in-descending-order-in-c-sharp/#:~:text=Method%201%3A%20Using%20Array.Sort,and%20Array.Reverse()%20Method&text=Sort()%20method%20which%20sorts,Reverse()%20method.&text=int%20%5B%5D%20arr%20%3D%20new%20int,Sort%20array%20in%20ascending%20order.)
+##### Reference: 
+1. [Different ways to sort an array in descending order in C#](https://www.geeksforgeeks.org/different-ways-to-sort-an-array-in-descending-order-in-c-sharp/#:~:text=Method%201%3A%20Using%20Array.Sort,and%20Array.Reverse()%20Method&text=Sort()%20method%20which%20sorts,Reverse()%20method.&text=int%20%5B%5D%20arr%20%3D%20new%20int,Sort%20array%20in%20ascending%20order.)
+
+2. [What is the difference between & and && operators in C#
+](https://stackoverflow.com/questions/4163483/what-is-the-difference-between-and-operators-in-c-sharp)
+
+
 
 ### Day14. [LeetCode-#1323] Maximum 69 Number
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
@@ -242,51 +248,51 @@
 ##### Reference: [Array.Reverse Method](https://docs.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-5.0)
 
 ### Day16. [LeetCode-#670] Maximum Swap
-今天時間有點緊迫, 只是做了一題 Medium 就有點卡關, 其他的明天繼續。
-
+找出轉換後最大的數且只有一次轉換的機會, 那就必須能知道當前的數字是否已經是最大的數。在判斷的過程中如果確認已經找到是最大的數, 則會 Swap two number 並且回傳轉換後的值。
 ##### Step by Step
+1. Convert int to string
+2. Convert string to char array
+3. Check if the length of the array is greater than 1 
 
 ##### Code
     public int MaximumSwap(int num) {
         string s = Convert.ToString(num);
         char[] ch = s.ToCharArray();
-        char[] ch2 = new char[ch.Length];
         
-        for (int i = 0; i < ch.Length-1; i++)
+        if(ch.Length > 1)
         {
-            if(ch[i]=='9'){
-                continue;
-            }
-            else
+            for (int i = 0; i < ch.Length-1; i++)
             {
-                int n = i;
-                for(int j = i + 1; j < ch.Length; j++)
-                {
-                    if(ch[n] < ch[j] && ch2[n] != 'x')
+
+                if(ch[i] != '9'){
+                    int n = i;
+                    for(int j = i + 1; j < ch.Length; j++)
                     {
-                        n = j;
+                        if(ch[i] < ch[j] && ch[j] >= ch[n])
+                        {
+                            n = j;
+                        }
+
+                    }
+                    if(n != i)
+                    {
+                        char[] ch1 = new char[1];
+                        ch1[0] = ch[i];
+                        ch[i] = ch[n];
+                        ch[n] = ch1[0];
+
+                        goto end;
                     }
                 }
-                if(n != i)
-                {
-                    char[] ch1 = new char[1];
-                    ch1[0] = ch[i];
-                    ch[i] = ch[n];
-                    ch[n] = ch1[0];
-                    
-                    ch2[n] = 'x';
-                    
-                    
-                }
             }
+            end:
+            string s2 = new string(ch);
+            int parsed = Convert.ToInt32(s2);
+            return parsed;
+
         }
-        string s2 = new string(ch);
-        int parsed = Convert.ToInt32(s2);
-        return parsed;
+        else
+        {
+            return num;
+        }
     }
-
-
-
-
-
-

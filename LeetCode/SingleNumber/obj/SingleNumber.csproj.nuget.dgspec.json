@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\SingleNumber\\SingleNumber.csproj": {}
+    "D:\\Documents\\C#\\myProject\\100DaysOfCode\\LeetCode\\SingleNumber\\SingleNumber.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\SingleNumber\\SingleNumber.csproj": {
+    "D:\\Documents\\C#\\myProject\\100DaysOfCode\\LeetCode\\SingleNumber\\SingleNumber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\SingleNumber\\SingleNumber.csproj",
+        "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\LeetCode\\SingleNumber\\SingleNumber.csproj",
         "projectName": "SingleNumber",
-        "projectPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\SingleNumber\\SingleNumber.csproj",
+        "projectPath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\LeetCode\\SingleNumber\\SingleNumber.csproj",
         "packagesPath": "C:\\Users\\MSIWillard\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\LeetCode\\SingleNumber\\obj\\",
+        "outputPath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\LeetCode\\SingleNumber\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
