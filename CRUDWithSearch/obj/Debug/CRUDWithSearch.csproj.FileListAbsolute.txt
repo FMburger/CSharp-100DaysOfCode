@@ -8,3 +8,13 @@ D:\Documents\C#\myProject\100DaysCodeChallenge\CRUDWithSearch\obj\Debug\CRUDWith
 D:\Documents\C#\myProject\100DaysCodeChallenge\CRUDWithSearch\obj\Debug\CRUDWithSearch.exe
 D:\Documents\C#\myProject\100DaysCodeChallenge\CRUDWithSearch\obj\Debug\CRUDWithSearch.pdb
 D:\Documents\C#\myProject\100DaysCodeChallenge\CRUDWithSearch\obj\Debug\CRUDWithSearch.CRUDForm.resources
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\bin\Debug\CRUDWithSearch.exe.config
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\bin\Debug\CRUDWithSearch.exe
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\bin\Debug\CRUDWithSearch.pdb
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.CRUDForm.resources
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.Properties.Resources.resources
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.csproj.GenerateResource.cache
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.exe
+D:\Documents\C#\myProject\100DaysOfCode\CRUDWithSearch\obj\Debug\CRUDWithSearch.pdb

@@ -213,7 +213,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "CRUDForm";
-            this.Text = "CRUDForm";
+            this.Text = "實作 CRUD Operator";
             this.Load += new System.EventHandler(this.CRUDFormLoad);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

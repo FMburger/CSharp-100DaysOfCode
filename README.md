@@ -348,8 +348,17 @@ SQL Server 連線測試程式。
 ## Day2. CRUD with search
 今天參考的是這篇 [How to Upload Files and Save in Database in ASP.NET Core MVC](https://tutexchange.com/how-to-upload-files-and-save-in-database-in-asp-net-core-mvc/), 文章寫得非常詳細, 只要按照他的步驟就能夠成功將檔案存入資料庫中。
 
+#### .Net Core Template
+*Windows Form*
+
+#### Overview
+![](GIF/CRUDwithSearch.gif)
+
 ## Day1. File management
 第一天, 今天參考 Tim Corey 的影片 [Working With The File System in C# - Managing Folders and Files](https://www.youtube.com/watch?v=9mUuJIKq40M), 學習如何對檔案進行存取。主要使用到 System.IO 的 [Directory](https://docs.microsoft.com/en-us/dotnet/api/system.io.directory?view=net-5.0) 類別。
+
+#### .Net Core Template
+*Console Application*
 
 #### Overview
 ![](GIF/FileManager.gif)
