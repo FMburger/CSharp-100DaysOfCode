@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pk6yHG4A6DmU5RwItLvh3WQcIqgXtdVVXEaJC2/3XqO+IMuGmA3SelFX/TvN9rx/22c/hmOhl6YmKKTP3aFlvQ==",
+  "dgSpecHash": "FQPZg3CyNKqh+V0UlFyahKSNnxUKRMlg/V4t/s0mz8P0gYCaQ/3dPUrvnfIF2MRfrJL7W03ONPf9uMl53p+Atg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\FileManager\\FileManager.csproj",
+  "projectFilePath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\FileManager\\FileManager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

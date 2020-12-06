@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\FileManager\\FileManager.csproj",
+      "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\FileManager\\FileManager.csproj",
       "projectName": "FileManager",
-      "projectPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\FileManager\\FileManager.csproj",
+      "projectPath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\FileManager\\FileManager.csproj",
       "packagesPath": "C:\\Users\\MSIWillard\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\FileManager\\obj\\",
+      "outputPath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\FileManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
