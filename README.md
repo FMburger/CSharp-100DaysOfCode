@@ -1,5 +1,23 @@
 # C# - 100 days of code
 
+## Day18. [LeetCode-#237] Delete Node in Linked List
+由於已經先給定了要刪除的 node 不可能是 tail node 的先決條件, 所以這題實在有點讓人摸不著頭緒, 如果想的複雜一點反而還會出錯的可能。:sob:
+
+##### .Net Core Template:
+*Console App*
+
+##### Step by Step
+1. Node value is NextNode value
+2. Node next is NextNode next 
+
+##### Code
+    public void DeleteNode(ListNode node) {
+        node.val = node.next.val;
+        node.next = node.next.next;
+    }
+
+##### Reference: [What is ListNode in C# ?](https://www.reddit.com/r/csharp/comments/f4im6c/what_is_listnode_in_c/)
+
 ## Day17. DOCX to HTML
 今天使用 Aspose.Words for .NET API, 程式碼的部分也很簡單。 
 
@@ -32,8 +50,6 @@
 1. [Convert Word DOC or DOCX to HTML, MHTML in C# VB.NET](https://blog.aspose.com/2020/10/02/convert-word-doc-or-docx-to-html-mhtml-csharp-vb-net/)
 2. [Aspose.Words 20.12.0 (Nuget)](https://www.nuget.org/packages/Aspose.Words/)
 3. [Sample .doc and .docx download](https://file-examples.com/index.php/sample-documents-download/sample-doc-download/)
-
-
 
 ## Day16. [LeetCode-#670] Maximum Swap
 找出轉換後最大的數且只有一次轉換的機會, 那就必須能知道當前的數字是否已經是最大的數。在判斷的過程中如果確認已經找到是最大的數, 則會 Swap two number 並且回傳轉換後的值。
@@ -86,8 +102,6 @@
         }
     }
 
-
-
 ## Day15. [LeetCode-#344] Reverse String
 即使這題只要使用 Array.Reverse 方法就能夠很輕易地解決, 我還是有想出自己的解法。 我的方式是使用 Swap two nubmers 結合 for loop 做左右互換, 而 for loop 只要執行 array s 長度的一半即可。 
 
@@ -107,8 +121,6 @@
     }
 
 #### Reference: [Array.Reverse Method](https://docs.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-5.0)
-
-
 
 ## Day14. [LeetCode-#1323] Maximum 69 Number
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
@@ -139,8 +151,6 @@
             return x;
         }
     }
-
-
 
 ## Day13. [LeetCode-#136, #287] Single Number, Find the Duplicate Number
 今天這兩題的作法都是先將陣列進行排序, 在判斷是否和下一位數相同或是相異。如果能找出 Single Number, 那一定也能找出 Duplicate Number。
@@ -179,8 +189,6 @@
 2. [What is the difference between & and && operators in C#
 ](https://stackoverflow.com/questions/4163483/what-is-the-difference-between-and-operators-in-c-sharp)
 
-
-
 ## Day12. [LeetCode-#709, #190] To Lower Case, Reverse Bits
 第一題算是非常簡單的題目, 只需要使用.ToLower() 就能完成。
 第二題則複雜很多, 第一步會先將 Unsigned integer 轉換成一個 Binary string, 再使用 PadLeft() 以 '0' 填充 Binary string 左邊空格的部分, 填充後再將這個 Binary string 轉換成一個 char array。 當然, 這題最主要的還是要進行 Reverse bits, 最後使用了一個 for loop 結合 swap 的方式進行轉換。
@@ -207,8 +215,6 @@
         return parsed;
     }
 
-
-
 ## Day11. [LeetCode-#1] Two Sum
 這題算是蠻簡單的, 只要使用兩個 for loop 就能找出組成 target 的兩個數。
 
@@ -229,8 +235,6 @@
         }
         return null;
     }
-
-
 
 ## Day10. [LeetCode-#191] Number of 1 Bits
 
@@ -255,16 +259,11 @@
         return num;
     }
 
-
-
 ## Day9. Windows Form CRUD Operations (2)
 延續昨天未完的部分
 
-
-
 ## Day8. Windows Form CRUD Operations (1)
 今日參考 Youtube 上的教學影片建立 Windows Form App, 主要功能是對於 SQL Server 的資料進行 CRUD Operations, 未完的部分明天繼續
-
 
 #### .Net Core Template:
 *Windows Form App*
@@ -278,8 +277,6 @@
 #### References:  
 1. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 1/2)](https://www.youtube.com/watch?v=mw4TmD2AMtA)
 2. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 2/2)](https://www.youtube.com/watch?v=iqT0e09JCXQ)
-
-
 
 ## Day7. Digital Clock
 
@@ -316,14 +313,10 @@
 
 #### Referencee: [Make Digital Clock using C# Visual studio basics](https://www.youtube.com/watch?v=OFQxQndIFrQ)
 
-
-
 ## Day6. Multiplication table
 參考網路資料後加入了標題以及輸入功能
 
 #### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
-
-
 
 ## Day5. DBConnection
 SQL Server 連線測試程式。

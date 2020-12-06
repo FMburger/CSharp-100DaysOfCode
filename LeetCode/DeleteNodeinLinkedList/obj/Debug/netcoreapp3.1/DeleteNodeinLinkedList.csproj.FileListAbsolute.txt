@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\bin\Debug\netcoreapp3.1\DeleteNodeinLinkedList.exe
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\bin\Debug\netcoreapp3.1\DeleteNodeinLinkedList.deps.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\bin\Debug\netcoreapp3.1\DeleteNodeinLinkedList.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\bin\Debug\netcoreapp3.1\DeleteNodeinLinkedList.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\bin\Debug\netcoreapp3.1\DeleteNodeinLinkedList.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\bin\Debug\netcoreapp3.1\DeleteNodeinLinkedList.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\DeleteNodeinLinkedList\obj\Debug\netcoreapp3.1\DeleteNodeinLinkedList.genruntimeconfig.cache
