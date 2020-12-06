@@ -1,7 +1,7 @@
 # C# - 100 days of code
 
 ## Day18. [LeetCode-#237] Delete Node in Linked List
-由於已經先給定了要刪除的 node 不可能是 tail node 的先決條件, 所以這題實在有點讓人摸不著頭緒, 如果想的複雜一點反而還會出錯的可能。:sob:
+由於已經先給定了要刪除的 node 不能是 tail node 的先決條件, 所以這題實在有點讓人摸不著頭緒, 如果想的複雜一點反而還可能出錯。:sob:
 
 ##### .Net Core Template:
 *Console App*
