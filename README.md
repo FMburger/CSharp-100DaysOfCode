@@ -1,4 +1,4 @@
-# 挑戰連續 100 天 C# 編程
+# C# - 100 days of code
 
 # Day17. DOCX to HTML
 今天使用 Aspose.Words for .NET API, 程式碼的部分也很簡單。 
@@ -33,7 +33,7 @@
 2. [Aspose.Words 20.12.0 (Nuget)](https://www.nuget.org/packages/Aspose.Words/)
 3. [Sample .doc and .docx download](https://file-examples.com/index.php/sample-documents-download/sample-doc-download/)
 
-##### End~
+##### End
 
 # Day16. [LeetCode-#670] Maximum Swap
 找出轉換後最大的數且只有一次轉換的機會, 那就必須能知道當前的數字是否已經是最大的數。在判斷的過程中如果確認已經找到是最大的數, 則會 Swap two number 並且回傳轉換後的值。
@@ -86,7 +86,7 @@
         }
     }
 
-##### End~
+##### End
 
 # Day15. [LeetCode-#344] Reverse String
 即使這題只要使用 Array.Reverse 方法就能夠很輕易地解決, 我還是有想出自己的解法。 我的方式是使用 Swap two nubmers 結合 for loop 做左右互換, 而 for loop 只要執行 array s 長度的一半即可。 
@@ -108,7 +108,7 @@
 
 ### Reference: [Array.Reverse Method](https://docs.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-5.0)
 
-##### End~
+##### End
 
 # Day14. [LeetCode-#1323] Maximum 69 Number
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
@@ -140,7 +140,7 @@
         }
     }
 
-##### End~
+##### End
 
 # Day13. [LeetCode-#136, #287] Single Number, Find the Duplicate Number
 今天這兩題的作法都是先將陣列進行排序, 在判斷是否和下一位數相同或是相異。如果能找出 Single Number, 那一定也能找出 Duplicate Number。
@@ -179,7 +179,7 @@
 2. [What is the difference between & and && operators in C#
 ](https://stackoverflow.com/questions/4163483/what-is-the-difference-between-and-operators-in-c-sharp)
 
-##### End~
+##### End
 
 # Day12. [LeetCode-#709, #190] To Lower Case, Reverse Bits
 第一題算是非常簡單的題目, 只需要使用.ToLower() 就能完成。
@@ -207,7 +207,7 @@
         return parsed;
     }
 
-##### End~
+##### End
 
 # Day11. [LeetCode-#1] Two Sum
 這題算是蠻簡單的, 只要使用兩個 for loop 就能找出組成 target 的兩個數。
@@ -230,7 +230,7 @@
         return null;
     }
 
-##### End~
+##### End
 
 # Day10. [LeetCode-#191] Number of 1 Bits
 
@@ -255,12 +255,12 @@
         return num;
     }
 
-##### End~
+##### End
 
 # Day9. Windows Form CRUD Operations (2)
 延續昨天未完的部分
 
-##### End~
+##### End
 
 # Day8. Windows Form CRUD Operations (1)
 今日參考 Youtube 上的教學影片建立 Windows Form App, 主要功能是對於 SQL Server 的資料進行 CRUD Operations, 未完的部分明天繼續
@@ -279,7 +279,7 @@
 1. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 1/2)](https://www.youtube.com/watch?v=mw4TmD2AMtA)
 2. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 2/2)](https://www.youtube.com/watch?v=iqT0e09JCXQ)
 
-##### End~
+##### End
 
 # Day7. Digital Clock
 
@@ -316,14 +316,14 @@
 
 ### Referencee: [Make Digital Clock using C# Visual studio basics](https://www.youtube.com/watch?v=OFQxQndIFrQ)
 
-##### End~
+##### End
 
 # Day6. Multiplication table
 參考網路資料後加入了標題以及輸入功能
 
 ### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
 
-##### End~
+##### End
 
 # Day5. DBConnection
 SQL Server 連線測試程式。
@@ -332,28 +332,28 @@ SQL Server 連線測試程式。
 1. [Beginners guide to accessing SQL Server through C#](https://www.codeproject.com/Articles/4416/Beginners-guide-to-accessing-SQL-Server-through-C))
 2. [How to check MySQL connection state in C#](https://stackoverflow.com/questions/20785220/how-to-check-mysql-connection-state-in-c-sharp/20785451)
 
-##### End~
+##### End
 
 # Day4. Elementary Arithmetic
 簡易四則運算
 
-##### End~
+##### End
 
 # Day3. Signature pad (1)
 參考網路文章建立簽名板, 因為程式中有些地方還需要進行除錯。
 
 ### Reference: [Register Account with Digital Signature in ASP.NET Core MVC](https://www.youtube.com/watch?v=NUrpve7hXuM)
 
-##### End~
+##### End
 
 # Day2. 上傳檔案並將檔案存至 SQL Server
 今天參考的是這篇 [How to Upload Files and Save in Database in ASP.NET Core MVC](https://tutexchange.com/how-to-upload-files-and-save-in-database-in-asp-net-core-mvc/), 文章寫得非常詳細, 只要按照他的步驟就能夠成功將檔案存入資料庫中。
 
-##### End~
+##### End
 
 
 
 # Day1. 管理資料夾和檔案
 第一天, 今天參考 Tim Corey 的影片 [Working With The File System in C# - Managing Folders and Files](https://www.youtube.com/watch?v=9mUuJIKq40M), 學習如何對檔案進行存取。主要使用到 System.IO 的 Directory 類別。
 
-##### End~
+##### End
