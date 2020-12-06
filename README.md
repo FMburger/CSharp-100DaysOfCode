@@ -1,25 +1,25 @@
 # 挑戰連續 100 天 C# 編程
 
-### Day1. 管理資料夾和檔案
+# Day1. 管理資料夾和檔案
 ##### 第一天, 今天參考 Tim Corey 的影片 [Working With The File System in C# - Managing Folders and Files](https://www.youtube.com/watch?v=9mUuJIKq40M), 學習如何對檔案進行存取。主要使用到 System.IO 的 Directory 類別。
 
-### Day2. 上傳檔案並將檔案存至 SQL Server
+# Day2. 上傳檔案並將檔案存至 SQL Server
 
 ##### 今天參考的是這篇 [How to Upload Files and Save in Database in ASP.NET Core MVC](https://tutexchange.com/how-to-upload-files-and-save-in-database-in-asp-net-core-mvc/), 文章寫得非常詳細, 只要按照他的步驟就能夠成功將檔案存入資料庫中。
 
 
-### Day3. Signature pad (1)
+# Day3. Signature pad (1)
 
 ##### 參考網路文章建立簽名板, 因為程式中有些地方還需要進行除錯。
 
 ##### Reference: [Register Account with Digital Signature in ASP.NET Core MVC](https://www.youtube.com/watch?v=NUrpve7hXuM)
 
 
-### Day4. Elementary Arithmetic
+# Day4. Elementary Arithmetic
 簡易四則運算
 
 
-### Day5. DBConnection
+# Day5. DBConnection
 
 ##### SQL Server 連線測試程式。
 
@@ -28,12 +28,12 @@
 2. [How to check MySQL connection state in C#](https://stackoverflow.com/questions/20785220/how-to-check-mysql-connection-state-in-c-sharp/20785451)
 
 
-### Day6. Multiplication table
+# Day6. Multiplication table
 參考網路資料後加入了標題以及輸入功能
 
 ##### Reference: [Multiplication tables](https://rosettacode.org/wiki/Multiplication_tables)
 
-### Day7. Digital Clock
+# Day7. Digital Clock
 
 ##### Step by Step
 * Download DS-Digital font
@@ -68,7 +68,7 @@
 
 ##### Referencee: [Make Digital Clock using C# Visual studio basics](https://www.youtube.com/watch?v=OFQxQndIFrQ)
 
-### Day8. Windows Form CRUD Operations (1)
+# Day8. Windows Form CRUD Operations (1)
 今日參考 Youtube 上的教學影片建立 Windows Form App, 主要功能是對於 SQL Server 的資料進行 CRUD Operations, 未完的部分明天繼續
 
 
@@ -85,10 +85,10 @@
 1. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 1/2)](https://www.youtube.com/watch?v=mw4TmD2AMtA)
 2. [C# and SQL Server Perform SMART CRUD Operations with SEARCH (Edited Version Part 2/2)](https://www.youtube.com/watch?v=iqT0e09JCXQ)
 
-### Day9. Windows Form CRUD Operations (2)
+# Day9. Windows Form CRUD Operations (2)
 延續昨天未完的部分
 
-### Day10. [LeetCode-#191] Number of 1 Bits
+# Day10. [LeetCode-#191] Number of 1 Bits
 
 ##### Step by Step
 1. Convert uint to string
@@ -111,7 +111,7 @@
         return num;
     }
 
-### Day11. [LeetCode-#1] Two Sum
+# Day11. [LeetCode-#1] Two Sum
 這題算是蠻簡單的, 只要使用兩個 for loop 就能找出組成 target 的兩個數。
 
 ##### Code:
@@ -132,7 +132,7 @@
         return null;
     }
 
-### Day12. [LeetCode-#709, #190] To Lower Case, Reverse Bits
+# Day12. [LeetCode-#709, #190] To Lower Case, Reverse Bits
 第一題算是非常簡單的題目, 只需要使用.ToLower() 就能完成。
 第二題則複雜很多, 第一步會先將 Unsigned integer 轉換成一個 Binary string, 再使用 PadLeft() 以 '0' 填充 Binary string 左邊空格的部分, 填充後再將這個 Binary string 轉換成一個 char array。 當然, 這題最主要的還是要進行 Reverse bits, 最後使用了一個 for loop 結合 swap 的方式進行轉換。
 
@@ -158,7 +158,7 @@
         return parsed;
     }
 
-### Day13. [LeetCode-#136, #287] Single Number, Find the Duplicate Number
+# Day13. [LeetCode-#136, #287] Single Number, Find the Duplicate Number
 今天這兩題的作法都是先將陣列進行排序, 在判斷是否和下一位數相同或是相異。如果能找出 Single Number, 那一定也能找出 Duplicate Number。
 
 ##### Step by Step (#136)
@@ -197,7 +197,7 @@
 
 
 
-### Day14. [LeetCode-#1323] Maximum 69 Number
+# Day14. [LeetCode-#1323] Maximum 69 Number
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
 
 ##### Faster than 100% :tada::tada::tada::tada::tada:
@@ -227,7 +227,7 @@
         }
     }
 
-### Day15. [LeetCode-#344] Reverse String
+# Day15. [LeetCode-#344] Reverse String
 即使這題只要使用 Array.Reverse 方法就能夠很輕易地解決, 我還是有想出自己的解法。 我的方式是使用 Swap two nubmers 結合 for loop 做左右互換, 而 for loop 只要執行 array s 長度的一半即可。 
 
 ##### Step by Step
@@ -247,7 +247,7 @@
 
 ##### Reference: [Array.Reverse Method](https://docs.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-5.0)
 
-### Day16. [LeetCode-#670] Maximum Swap
+# Day16. [LeetCode-#670] Maximum Swap
 找出轉換後最大的數且只有一次轉換的機會, 那就必須能知道當前的數字是否已經是最大的數。在判斷的過程中如果確認已經找到是最大的數, 則會 Swap two number 並且回傳轉換後的值。
 
 ##### Step by Step
@@ -298,7 +298,7 @@
         }
     }
 
-### Day17. DOCX to HTML
+# Day17. DOCX to HTML
 今天使用 Aspose.Words for .NET API, 程式碼的部分也很簡單。 
 
 ##### .Net Core Template:
