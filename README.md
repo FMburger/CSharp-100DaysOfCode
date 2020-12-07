@@ -3,20 +3,20 @@
 ## Day18. [LeetCode-#237] Delete Node in Linked List
 由於已經先給定了要刪除的 node 不能是 tail node 的先決條件, 所以這題實在有點讓人摸不著頭緒, 如果想的複雜一點反而還可能出錯。:sob:
 
-##### .Net Core Template:
+#### .Net Core Template:
 *Console App*
 
-##### Step by Step
+#### Step by Step
 1. Node value is NextNode value
 2. Node next is NextNode next 
 
-##### Code
+#### Code
     public void DeleteNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;
     }
 
-##### Reference: [What is ListNode in C# ?](https://www.reddit.com/r/csharp/comments/f4im6c/what_is_listnode_in_c/)
+#### Reference: [What is ListNode in C# ?](https://www.reddit.com/r/csharp/comments/f4im6c/what_is_listnode_in_c/)
 
 ## Day17. DOCX to HTML
 今天使用 Aspose.Words for .NET API, 程式碼的部分也很簡單。 
