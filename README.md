@@ -1,5 +1,25 @@
 # C# - 100 days of code
 
+## Day19. Monitor
+今天也是透過著影片學習如何建立效能監控器。只要確實照著步驟做就能順利完成。
+
+#### .Net Core Template:
+*Windows Form App*
+
+#### Step by Step
+* Add three lables
+* Add a timer
+* Set the properties
+* Using System.Diagnostics
+* Create a performanceCounter instance
+* Set text value
+
+
+#### Overview
+![](GIF/Monitor.gif)
+
+#### Reference: [How To Make A CPU Monitor in C#](https://www.youtube.com/watch?v=niKP91D50Ko)
+
 ## Day18. [LeetCode-#237] Delete Node in Linked List
 由於已經先給定了要刪除的 node 不能是 tail node 的先決條件, 所以這題實在有點讓人摸不著頭緒, 如果想的複雜一點反而還可能出錯。:sob:
 
@@ -128,7 +148,7 @@
 ## Day14. [LeetCode-#1323] Maximum 69 Number
 由左至右, 將發現的第一個 6 替換成 9, 結束。 
 
-#### Faster than 100% :tada::tada::tada::tada::tada:
+#### Success :tada::tada::tada::tada::tada:
  ![fastThan100](PNG/faster_than_100_percent.PNG)
 
 #### Step by Step

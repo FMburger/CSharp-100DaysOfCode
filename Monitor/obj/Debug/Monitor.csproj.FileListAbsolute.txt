@@ -1,0 +1,10 @@
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.Form1.resources
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.Properties.Resources.resources
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.csproj.GenerateResource.cache
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\bin\Debug\Monitor.exe.config
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\bin\Debug\Monitor.exe
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\bin\Debug\Monitor.pdb
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.exe
+D:\Documents\C#\myProject\100DaysOfCode\Monitor\obj\Debug\Monitor.pdb
