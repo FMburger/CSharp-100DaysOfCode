@@ -4860,11 +4860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\UploadAndSave\\UploadAndSave.csproj",
+      "projectUniqueName": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\UploadAndSave\\UploadAndSave.csproj",
       "projectName": "UploadAndSave",
-      "projectPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\UploadAndSave\\UploadAndSave.csproj",
+      "projectPath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\UploadAndSave\\UploadAndSave.csproj",
       "packagesPath": "C:\\Users\\MSIWillard\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\C#\\myProject\\100DaysCodeChallenge\\UploadAndSave\\obj\\",
+      "outputPath": "D:\\Documents\\C#\\myProject\\100DaysOfCode\\UploadAndSave\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
