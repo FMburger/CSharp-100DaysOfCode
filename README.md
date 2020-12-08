@@ -1,5 +1,39 @@
 # C# - 100 days of code
 
+## Day20 PDF Encrypt and Decrpt PDF Files
+
+#### .Net Core Template:
+*Console Application*
+
+#### Step by Step (Encryption)
+1. Get project directory
+2. Create A instance of Document 
+3. Encrypt PDF
+4. Save PDF
+
+#### Step by Step (Decryption)
+1. Get project directory
+2. Create A instance of Document 
+3. Decrypt PDF
+4. Save PDF
+
+#### Overview
+![](GIF/FileEncryption.gif)
+
+#### Code
+    // Encryption
+    Document document = new Document(projectDirectory + "/Files/test.pdf");
+    document.Encrypt(userPassword, "ownerPassword", 0, CryptoAlgorithm.RC4x128);
+    document.Save(projectDirectory + "/Files/EncryptedPDF.pdf");
+    // Decryption
+    Document document2 = new Document(projectDirectory + "/Files/EncryptedPDF.pdf", userPassword2);
+    document2.Decrypt();
+    document2.Save("DecryptedPDF.pdf");
+
+#### References: 
+1. [Encrypt and Decrypt PDF Files using C#](https://blog.aspose.com/2020/04/28/encrypt-or-decrypt-pdf-files-programmatically-using-csharp-asp.net/)
+2. [How do you get the current project directory from C# code when creating a custom MSBuild task?](https://stackoverflow.com/questions/816566/how-do-you-get-the-current-project-directory-from-c-sharp-code-when-creating-a-c)
+
 ## Day19. Monitor
 今天也是透過著影片學習如何建立效能監控器。只要確實照著步驟做就能順利完成。
 
@@ -24,7 +58,7 @@
 由於已經先給定了要刪除的 node 不能是 tail node 的先決條件, 所以這題實在有點讓人摸不著頭緒, 如果想的複雜一點反而還可能出錯。:sob:
 
 #### .Net Core Template:
-*Console App*
+*Console Application*
 
 #### Step by Step
 1. Node value is NextNode value
@@ -48,7 +82,7 @@
 ![](GIF/FileConversion.gif)
 
 #### Step by Step
-1. Install nuget package
+1. Install Nuget package
 2. Set Directory path
 3. Load DOCX file
 4. Initialize HtmlSaveOptions
