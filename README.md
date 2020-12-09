@@ -1,6 +1,32 @@
 # C# - 100 days of code
 
-## Day20 Encrypt PDF and Decrpt PDF Files
+## Day21. [LeetCode-#189] Rotate Array
+這題要留意的就是使用 Array.Reverese(), 然後分段做 Reverse。只要懂概念, 這題就不難。
+
+#### Step by Step
+1. Check if k is zero
+2. Use reverse
+
+#### Code
+    public void Rotate(int[] nums, int k) 
+    {
+        // Check if k is zero
+        if (k == 0) return;
+
+        k %= nums.Length;
+
+        Array.Reverse(nums);
+        Array.Reverse(nums, 0, k );
+        Array.Reverse(nums, k, nums.Length - k);
+        
+    }
+
+#### Success
+![](PNG/189.RotateArray.PNG)
+
+#### References: [Introduction to Identity on ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=netcore-cli)
+
+## Day20. Encrypt PDF and Decrpt PDF Files
 
 #### .Net Core Template:
 *Console Application*
