@@ -24,7 +24,6 @@
 #### Success
 ![](PNG/189.RotateArray.PNG)
 
-#### References: [Introduction to Identity on ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=netcore-cli)
 
 ## Day20. Encrypt PDF and Decrpt PDF Files
 
