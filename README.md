@@ -1,6 +1,6 @@
 # C# - 100 days of code
 
-## Day20 PDF Encrypt and Decrpt PDF Files
+## Day20 Encrypt PDF and Decrpt PDF Files
 
 #### .Net Core Template:
 *Console Application*
