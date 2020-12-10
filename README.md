@@ -1,5 +1,23 @@
 # C# - 100 days of code
 
+## Day22. [ASP.NET] ASP.Net Identity (1)
+今天只有編寫少部分的 C#, 主要是以學習 ASP.NET Identity 為主。
+
+#### .Net Templae
+*.NET Framework Web Application*
+
+#### Step by Step
+1. Create A empty project
+2. Install Nuget package
+3. Add Register
+4. Replace markup in the generated Rigister.aspx
+5. Replace contents of the Register.aspx.cs
+6. Add App_Data
+7. Add connection string
+
+#### References
+1. [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
+
 ## Day21. [LeetCode-#189] Rotate Array
 這題要留意的就是使用 Array.Reverese(), 然後分段做 Reverse。只要懂概念, 這題就不難。
 
