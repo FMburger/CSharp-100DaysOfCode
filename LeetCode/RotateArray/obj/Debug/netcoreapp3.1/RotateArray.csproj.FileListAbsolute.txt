@@ -1,0 +1,13 @@
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\bin\Debug\netcoreapp3.1\RotateArray.exe
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\bin\Debug\netcoreapp3.1\RotateArray.deps.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\bin\Debug\netcoreapp3.1\RotateArray.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\bin\Debug\netcoreapp3.1\RotateArray.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\bin\Debug\netcoreapp3.1\RotateArray.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\bin\Debug\netcoreapp3.1\RotateArray.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\RotateArray\obj\Debug\netcoreapp3.1\RotateArray.genruntimeconfig.cache
