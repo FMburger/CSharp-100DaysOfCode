@@ -1,5 +1,22 @@
 # C# - 100 days of code
 
+## Day23. [ASP.NET] ASP.NET Identity (2)
+結合昨天的部分, 今天完整的使用 ASP.NET Identity 建立登入頁面
+
+#### .Net Templae
+*.NET Framework Web Application*
+
+#### Step by Step
+9. Create Database and data table
+10. Install Microsoft.AspNet.Identity.Owin
+11. Install Microsoft.Owin.Host.SystemWeb
+12. Add OWIN startup and authentication configuration
+13. Add Startup.cs
+14. Add a Web Form Login
+
+#### Overview
+![](GIF/ASPDotNetIdentity2.gif)
+
 ## Day22. [ASP.NET] ASP.Net Identity (1)
 今天只有編寫少部分的 C#, 主要是以學習 ASP.NET Identity 為主。
 
@@ -7,13 +24,17 @@
 *.NET Framework Web Application*
 
 #### Step by Step
-1. Create A empty project
+1. Create A ASP.NET Web Application Empty project
 2. Install Nuget package
-3. Add Register
-4. Replace markup in the generated Rigister.aspx
-5. Replace contents of the Register.aspx.cs
-6. Add App_Data
-7. Add connection string
+3. Add a Web Form Register
+4. replace content of Register.aspx
+5. Add Register.aspx.cs
+6. Add App_data
+7. Add a connection string in Web.Config
+8. Set as Start Page
+
+#### Overview
+![](GIF/ASPDotNetIdentity.gif)
 
 #### References
 1. [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
