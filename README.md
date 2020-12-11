@@ -36,8 +36,7 @@
 #### Overview
 ![](GIF/ASPDotNetIdentity.gif)
 
-#### References
-1. [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
+#### References: [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
 
 ## Day21. [LeetCode-#189] Rotate Array
 這題要留意的就是使用 Array.Reverese(), 然後分段做 Reverse。只要懂概念, 這題就不難。
