@@ -11,3 +11,16 @@ D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\SingleNumber\obj\Debug\n
 D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.dll
 D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.pdb
 D:\Documents\C#\myProject\100DaysCodeChallenge\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.genruntimeconfig.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\bin\Debug\netcoreapp3.1\SingleNumber.exe
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\bin\Debug\netcoreapp3.1\SingleNumber.deps.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\bin\Debug\netcoreapp3.1\SingleNumber.runtimeconfig.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\bin\Debug\netcoreapp3.1\SingleNumber.runtimeconfig.dev.json
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\bin\Debug\netcoreapp3.1\SingleNumber.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\bin\Debug\netcoreapp3.1\SingleNumber.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.csprojAssemblyReference.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.AssemblyInfoInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.AssemblyInfo.cs
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.csproj.CoreCompileInputs.cache
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.dll
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.pdb
+D:\Documents\C#\myProject\100DaysOfCode\LeetCode\SingleNumber\obj\Debug\netcoreapp3.1\SingleNumber.genruntimeconfig.cache

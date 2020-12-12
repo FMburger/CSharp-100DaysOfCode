@@ -1,5 +1,43 @@
 # C# - 100 days of code
 
+##  Day24. [LeetCode-#137] Single Number II
+今日是延續之前的 Single Number II, 主要修改 for loop increament, 而且也還要找出其他更好的方法。
+
+#### Step by Step
+1. Sorting array
+2. Find the single number
+
+#### Code
+    public class Solution {
+        public int SingleNumber(int[] nums) {
+            // Sorting array
+            Array.Sort(nums);
+
+            int n = 0;
+            for (int i = 0; i < nums.Length; i+=3)
+            {
+                if (i == (nums.Length - 1))
+                {
+                    n = nums[i];
+                    return n;
+                }
+                else
+                {
+                    // Find the single number
+                    if (nums[i] != nums[i + 1])
+                    {
+                        n = nums[i];
+                        return n;
+                    }
+                }
+            }
+            return 0;
+        }
+    }
+
+#### Success
+![](PNG/137.SingleNumberII.PNG)
+
 ## Day23. [ASP.NET] ASP.NET Identity (2)
 結合昨天的部分, 今天完整的使用 ASP.NET Identity 建立登入頁面
 
@@ -39,7 +77,7 @@
 #### References: [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
 
 ## Day21. [LeetCode-#189] Rotate Array
-這題要留意的就是使用 Array.Reverese(), 然後分段做 Reverse。只要懂概念, 這題就不難。
+這題要留意的就是使用 Array.Reverse(), 然後分段做 Reverse。只要懂概念, 這題就不難。
 
 #### Step by Step
 1. Check if k is zero
