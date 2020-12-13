@@ -1,6 +1,19 @@
 # C# - 100 days of code
 
-##  Day24. [LeetCode-#137] Single Number II
+## Day25 - Who is your father
+今日使用 Console App 執行 OOP 程式
+
+#### .Net Templae
+*Console Application*
+
+#### Step by Step
+1. 輸入 First name
+2. 依據父類別判斷你的 Last name
+
+#### Overvie
+![](GIF/WhoIsYourFather.gif)
+
+## Day24. [LeetCode-#137] Single Number II
 今日是延續之前的 Single Number II, 主要修改 for loop increament, 而且也還要找出其他更好的方法。
 
 #### Step by Step
