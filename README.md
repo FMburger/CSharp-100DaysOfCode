@@ -9,6 +9,7 @@
 #### Step by Step
 
 #### Overview
+![](GIF/ZipAndUnzip.gif)
 
 ## Day25 - Who is your father
 今日使用 Console App 執行 OOP 程式
