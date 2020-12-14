@@ -1,5 +1,15 @@
 # C# - 100 days of code
 
+## Day26. ZIP and Unzip
+今天主要實作檔案的壓縮和解壓縮
+
+#### .Net Templae
+*Console App*
+
+#### Step by Step
+
+#### Overview
+
 ## Day25 - Who is your father
 今日使用 Console App 執行 OOP 程式
 
