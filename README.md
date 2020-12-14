@@ -10,7 +10,7 @@
 1. 輸入 First name
 2. 依據父類別判斷你的 Last name
 
-#### Overvie
+#### Overview
 ![](GIF/WhoIsYourFather.gif)
 
 ## Day24. [LeetCode-#137] Single Number II
