@@ -1,5 +1,22 @@
 # C# - 100 days of code
 
+## Day27 [LeetCode-#278]. First Bad Version
+雖然今天直接參考網友的解法, 但這跟我的原本的想法相同, 直接將 Array 剖半, 再判斷向左或向右查找。 
+
+#### Code
+    public int FirstBadVersion(int n) {
+            int start = 1, end = n;
+            while (start < end) {
+                int mid = start + (end-start) / 2;
+                if (!IsBadVersion(mid)) start = mid + 1;
+                else end = mid;            
+            }        
+            return start;
+        }
+
+#### Success
+![](PNG/278.FirstBadVersion.PNG)
+
 ## Day26. ZIP and Unzip
 今天主要實作檔案的壓縮和解壓縮
 
