@@ -1,5 +1,29 @@
 # C# - 100 days of code
 
+##  Day28. [LeetCode-#1480] Running Sum of 1d Array
+Simple solution
+
+#### Topics
+Array
+
+#### Step by Step
+1. For loop through int array
+2. nums[i] += nums[i-1];
+
+#### Code
+    public class Solution {
+        public int[] RunningSum(int[] nums) {
+            for(int i = 1; i < nums.Length; i++)
+            {
+                nums[i] += nums[i-1];
+            }
+            return nums;
+        }
+    }
+
+#### Success
+![](PNG/1480.RunningSumof1dArray.PNG)
+
 ## Day27 [LeetCode-#278]. First Bad Version
 雖然今天直接參考網友的解法, 但這跟我的原本的想法相同, 直接將 Array 剖半, 再判斷向左或向右查找。 
 
