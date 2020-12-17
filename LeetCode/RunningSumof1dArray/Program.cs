@@ -13,12 +13,15 @@ namespace RunningSumof1dArray
             string[] stringArray = new[] { str };
             int[] nums = stringArray.Select(x => int.Parse(x)).ToArray();
 
-            for (int i =1; 1 < nums.Length;  i++)
+            int sum = 0;
+            int[] result = new int[nums.Length];
+            for (int i = 0; i < nums.Length; i++)
             {
-                nums[i] += nums[i-1];
+                sum += nums[i];
+                result[i] = sum;
             }
 
-            Console.WriteLine("{0}", string.Join(", ", nums));
+            Console.WriteLine(nums);
 
 
         }

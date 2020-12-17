@@ -1,5 +1,37 @@
 # C# - 100 days of code
 
+##  Day29. [LeetCode-#1243]Array Transformation
+今天有點小卡關, 明天繼續
+
+#### Topics
+Array
+
+#### Code
+    public class Solution {
+        public IList<int> TransformArray(int[] arr) {
+            int number = -1;
+            int[] newArray = arr;
+            while(number < 0)
+            {
+                number = 0;
+                for(int i = 1; i < arr.Length-1; i++)
+                {
+                    if((arr[i] < arr[i - 1]) && (arr[i] < arr[i + 1]))
+                    {
+                        newArray[i] = newArray[i] + 1;
+                        number -= 1;
+                    }
+                    if((arr[i] > arr[i - 1]) && (arr[i] > arr[i + 1]))
+                    {
+                        newArray[i] = newArray[i] - 1;
+                        number -= 1;
+                    }
+                }
+            }
+            return newArray;
+        }
+    }
+
 ##  Day28. [LeetCode-#1480] Running Sum of 1d Array
 Simple solution
 
