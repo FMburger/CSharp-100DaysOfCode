@@ -3,7 +3,7 @@
 ##  Day30, [LeetCode-#1672] Richest Customer Wealth
 一行, 解決。
 
-#### Topics
+#### Topic
 *Array*
 
 #### Code
@@ -19,7 +19,7 @@
 ##  Day29. [LeetCode-#1243]Array Transformation
 今天要別注意在的是在建立新的 Array 時要使用 Clone() 方法
 
-#### Topics
+#### Topic
 Array
 
 #### Code
@@ -59,7 +59,7 @@ Array
 ##  Day28. [LeetCode-#1480] Running Sum of 1d Array
 Simple solution
 
-#### Topics
+#### Topic
 Array
 
 #### Step by Step
