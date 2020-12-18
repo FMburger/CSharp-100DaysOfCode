@@ -1,5 +1,21 @@
 # C# - 100 days of code
 
+##  Day30, [LeetCode-#1672] Richest Customer Wealth
+一行, 解決。
+
+#### Topics
+*Array*
+
+#### Code
+    public class Solution {
+        public int MaximumWealth(int[][] accounts) {
+            return accounts.Max(x => x.Sum());
+        }
+    }
+
+#### Success
+![](PNG/1672.RichestCustomerWealth.PNG)
+
 ##  Day29. [LeetCode-#1243]Array Transformation
 今天要別注意在的是在建立新的 Array 時要使用 Clone() 方法
 
