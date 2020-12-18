@@ -7,35 +7,37 @@ namespace ArrayTransformation
         static void Main(string[] args)
         {
             Console.WriteLine("< ArrayTransformation >");
-            int[] intArray = {2, 1, 2, 1, 1, 2, 2, 1};
+            int[] arr = {2, 1, 2, 1, 1 };
 
-
+            // 判斷是否需要建立新的 Array
             int number = -1;
-            int[] newArray = intArray;
-            //while (number < 0)
-            //{
-            //    foreach (var item in intArray)
-            //    {
-            //        Console.Write(item);
-            //    }
-            //    Console.WriteLine();
-                //number = 0;
-                for (int i = 1; i < intArray.Length - 1; i++)
+            while (number < 0)
+            {
+                // 將 arr 的值 Clone 給 newArray
+                var newArray = (int[])arr.Clone();
+                number = 0;
+
+                // 判斷 newArray 中是否有需要變更的數字
+                for (int i = 1; i < arr.Length - 1; i++)
                 {
-                Console.WriteLine(i);
-                    if ((intArray[i] > intArray[i - 1]) && (intArray[i] > intArray[i + 1]))
+                    if ((newArray[i] < newArray[i - 1]) && (newArray[i] < newArray[i + 1]))
                     {
-                        newArray[i] = newArray[i] - 1;
+                        arr[i] = arr[i] + 1;
                         number -= 1;
-                        //Console.WriteLine(newArray[i]);
                     }
-                    if ((intArray[i] < intArray[i - 1]) && (intArray[i] < intArray[i + 1]))
+                    if ((newArray[i] > newArray[i - 1]) && (newArray[i] > newArray[i + 1]))
                     {
-                        newArray[i] = newArray[i] + 1;
+                        arr[i] = arr[i] - 1;
                         number -= 1;
                     }
                 }
-            //}
+            }
+            // 印出 arr
+            foreach (var item in arr)
+            {
+                Console.Write(item);
+            }
+            Console.WriteLine("");
         }
     }
 }

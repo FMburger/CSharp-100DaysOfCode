@@ -1,7 +1,7 @@
 # C# - 100 days of code
 
 ##  Day29. [LeetCode-#1243]Array Transformation
-今天有點小卡關, 明天繼續
+今天要別注意在的是在建立新的 Array 時要使用 Clone() 方法
 
 #### Topics
 Array
@@ -9,28 +9,36 @@ Array
 #### Code
     public class Solution {
         public IList<int> TransformArray(int[] arr) {
+
+            // 判斷是否需要建立新的 Array
             int number = -1;
-            int[] newArray = arr;
-            while(number < 0)
+            while (number < 0)
             {
+                // 將 arr 的值 Clone 給 newArray
+                var newArray = (int[])arr.Clone();
                 number = 0;
-                for(int i = 1; i < arr.Length-1; i++)
+
+                // 判斷 newArray 中是否有需要變更的數字
+                for (int i = 1; i < arr.Length - 1; i++)
                 {
-                    if((arr[i] < arr[i - 1]) && (arr[i] < arr[i + 1]))
+                    if ((newArray[i] < newArray[i - 1]) && (newArray[i] < newArray[i + 1]))
                     {
-                        newArray[i] = newArray[i] + 1;
+                        arr[i] = arr[i] + 1;
                         number -= 1;
                     }
-                    if((arr[i] > arr[i - 1]) && (arr[i] > arr[i + 1]))
+                    if ((newArray[i] > newArray[i - 1]) && (newArray[i] > newArray[i + 1]))
                     {
-                        newArray[i] = newArray[i] - 1;
+                        arr[i] = arr[i] - 1;
                         number -= 1;
                     }
                 }
             }
-            return newArray;
+            return arr;
         }
     }
+
+#### Success
+![](PNG/1243.ArrayTransformation.PNG)
 
 ##  Day28. [LeetCode-#1480] Running Sum of 1d Array
 Simple solution
