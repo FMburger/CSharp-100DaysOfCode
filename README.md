@@ -1,6 +1,34 @@
 # C# - 100 days of code
 
-##  Day30, [LeetCode-#1672] Richest Customer Wealth
+
+##  Day31. [LeetCode-#1470] Shuffle the Array
+
+#### Topics
+Array
+
+#### Code
+    public class Solution {
+        public int[] Shuffle(int[] nums, int n) {
+
+            if(nums.Length == 0)
+                return nums;
+
+            int[] newArray = new int[2 * n];
+            int index1 = 0, index2 = n;
+
+            for(int i = 0; i < 2 * n; i++)
+            {
+                if(i % 2 == 0)
+                    newArray[i] = nums[index1++];
+                else
+                    newArray[i] = nums[index2++];
+            }
+
+            return newArray;
+        }
+    }
+
+## Day30, [LeetCode-#1672] Richest Customer Wealth
 一行, 解決。
 
 #### Topic
