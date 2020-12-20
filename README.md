@@ -1,5 +1,40 @@
 # C# - 100 days of code
 
+##  Day32. [LeetCode-#1512] Number of Good Pairs
+
+#### Purpose
+>Find the number of Good pairts.
+
+#### Topics
+Array
+
+#### Skill
+>* Nested for loop
+>* if 
+
+
+#### Step by Step
+1. Iterate through Nested for loop
+2. if nums[i] == nums[j]  &&  i < j, good pairs add 1
+
+#### Code
+    public class Solution {
+        public int NumIdenticalPairs(int[] nums) {
+            int count = 0;
+            for(int i = 0; i < nums.Length -1; i++)
+            {
+                for(int j = 1; j < nums.Length; j++)
+                {
+                    if(nums[i] == nums[j] && i < j)
+                    {
+                        count += 1;
+                    }
+                }
+            }
+            return(count);          
+        }
+    }
+
 ##  Day31. [LeetCode-#1470] Shuffle the Array
 
 #### Topics
