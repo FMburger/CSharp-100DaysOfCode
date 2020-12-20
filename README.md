@@ -1,6 +1,5 @@
 # C# - 100 days of code
 
-
 ##  Day31. [LeetCode-#1470] Shuffle the Array
 
 #### Topics
