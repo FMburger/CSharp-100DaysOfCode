@@ -35,8 +35,15 @@ D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\r
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.csprojAssemblyReference.cache
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.AssemblyInfoInputs.cache
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.AssemblyInfo.cs
-D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.csproj.CoreCompileInputs.cache
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.csproj.CopyComplete
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.dll
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.pdb
 D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.genruntimeconfig.cache
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\Aspose.HTML.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+D:\Documents\C#\myProject\100DaysOfCode\FileConversion\obj\Debug\netcoreapp3.1\FileConversion.csproj.CoreCompileInputs.cache

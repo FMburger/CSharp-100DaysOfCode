@@ -1,6 +1,28 @@
 # C# - 100 days of code
 
-##  Day32. [LeetCode-#1512] Number of Good Pairs
+## Day33. Epub to PDF
+
+#### Purpose
+> 使用 C# 將 Epub 轉換成 PDF
+
+#### .Net Templae
+*Console App*
+
+#### Step by Step
+1. Install Nuget pacakge
+2. Load input EPUB file
+3. Create a instance of PdfSaveOptions
+4. call the ConvertEPUB method
+
+#### Code
+    var epub = System.IO.File.OpenRead(dataDir + fileName);
+    Aspose.Html.Saving.PdfSaveOptions pdfOption = new Aspose.Html.Saving.PdfSaveOptions();
+    Aspose.Html.Converters.Converter.ConvertEPUB(epub, pdfOption, dataDir + "EPUBtoPDF.pdf");
+
+#### Overview
+![](GIF/EpubToPDF.gif)
+
+## Day32. [LeetCode-#1512] Number of Good Pairs
 
 #### Purpose
 >Find the number of Good pairts.
@@ -9,9 +31,8 @@
 Array
 
 #### Skill
->* Nested for loop
->* if 
-
+* Nested for loop
+* if 
 
 #### Step by Step
 1. Iterate through Nested for loop
@@ -35,7 +56,10 @@ Array
         }
     }
 
-##  Day31. [LeetCode-#1470] Shuffle the Array
+#### Success
+
+
+## Day31. [LeetCode-#1470] Shuffle the Array
 
 #### Topics
 Array
@@ -61,6 +85,8 @@ Array
             return newArray;
         }
     }
+#### Success
+![](PNG/1470.ShuffletheArray.PNG)
 
 ## Day30, [LeetCode-#1672] Richest Customer Wealth
 一行, 解決。
@@ -78,7 +104,7 @@ Array
 #### Success
 ![](PNG/1672.RichestCustomerWealth.PNG)
 
-##  Day29. [LeetCode-#1243]Array Transformation
+## Day29. [LeetCode-#1243]Array Transformation
 今天要別注意在的是在建立新的 Array 時要使用 Clone() 方法
 
 #### Topic
@@ -118,7 +144,7 @@ Array
 #### Success
 ![](PNG/1243.ArrayTransformation.PNG)
 
-##  Day28. [LeetCode-#1480] Running Sum of 1d Array
+## Day28. [LeetCode-#1480] Running Sum of 1d Array
 Simple solution
 
 #### Topic
