@@ -1,9 +1,9 @@
 # C# - 100 days of code
 
-## Day33. Epub to PDF
+## Day33. EPUB to PDF
 
 #### Purpose
-> 使用 C# 將 Epub 轉換成 PDF
+> Convert EPUB to PDF
 
 #### .Net Templae
 *Console App*
