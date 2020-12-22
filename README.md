@@ -61,8 +61,14 @@ Array
 
 ## Day31. [LeetCode-#1470] Shuffle the Array
 
+#### Purpose
+>Return the array in the form [x1,y1,x2,y2,...,xn,yn]
+
 #### Topics
 Array
+
+#### Skill
+
 
 #### Code
     public class Solution {
@@ -85,11 +91,16 @@ Array
             return newArray;
         }
     }
+
 #### Success
 ![](PNG/1470.ShuffletheArray.PNG)
 
 ## Day30, [LeetCode-#1672] Richest Customer Wealth
 一行, 解決。
+
+#### Purpose
+>Return the wealth that the richest customer has
+
 
 #### Topic
 *Array*
@@ -168,7 +179,7 @@ Array
 #### Success
 ![](PNG/1480.RunningSumof1dArray.PNG)
 
-## Day27 [LeetCode-#278]. First Bad Version
+## Day27. [LeetCode-#278]. First Bad Version
 雖然今天直接參考網友的解法, 但這跟我的原本的想法相同, 直接將 Array 剖半, 再判斷向左或向右查找。 
 
 #### Code
@@ -196,7 +207,7 @@ Array
 #### Overview
 ![](GIF/ZipAndUnzip.gif)
 
-## Day25 - Who is your father
+## Day25. Who is your father
 今日使用 Console App 執行 OOP 程式
 
 #### .Net Templae
