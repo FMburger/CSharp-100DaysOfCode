@@ -1,4 +1,30 @@
 # C# - 100 days of code
+## Day34. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC
+
+#### Purpose
+> Create a customer Login page in ASP.NET Core MVC 
+
+#### .Net Templae
+> ASP.NET Core Web app (MVC)
+
+#### Step by Step
+1. Create a ASP.NET Core MVC Project
+2. Add New Scaffolded Identity
+    1. Select existing layout 
+    > Views\Shared\_Layout.cshtml
+
+    2. Choose file to override
+    > Account\Login, 
+    > Account\Register
+    
+    3. Add Data Context:
+    > Auth.System.Data.AuthDbContext
+
+    4. Add User Class
+    > ApplicationUser
+
+#### OverView
+![](GIF/AspDotNetCoreMVCIdentity.gif)
 
 ## Day33. EPUB to PDF
 
