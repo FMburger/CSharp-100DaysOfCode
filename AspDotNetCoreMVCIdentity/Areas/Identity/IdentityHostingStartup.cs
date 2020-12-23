@@ -1,6 +1,6 @@
 ﻿using System;
 using AspDotNetCoreMVCIdentity.Areas.Identity.Data;
-using AspDotNetCoreMVCIdentity.Data.Auth.System.Data;
+using AspDotNetCoreMVCIdentity.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;

@@ -8,20 +8,26 @@
 > ASP.NET Core Web app (MVC)
 
 #### Step by Step
-1. Create a ASP.NET Core MVC Project
-2. Add New Scaffolded Identity
+1. Create a default Asp.net core MVC project
+2. Create a Customize one
+* No authentication
+
+3. Customize application
+  * Add New Scaffolded Identity
     1. Select existing layout 
     > Views\Shared\_Layout.cshtml
 
     2. Choose file to override
     > Account\Login, 
-    > Account\Register
+    >  Account\Register
     
     3. Add Data Context:
     > Auth.System.Data.AuthDbContext
 
     4. Add User Class
     > ApplicationUser
+    
+    5. Update Startup.cs
 
 #### OverView
 ![](GIF/AspDotNetCoreMVCIdentity.gif)
