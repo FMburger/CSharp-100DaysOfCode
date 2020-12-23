@@ -1,4 +1,28 @@
 # C# - 100 days of code
+
+## Day35. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC (2)
+
+#### Purpose
+> Create a custome Login page in ASP.NET Core MVC 
+
+#### .Net Templae
+> ASP.NET Core Web app (MVC)
+
+#### Step by Step
+  * Update Startup.cs
+  > services.addRazorPages();
+  > app.UseAuthentication();
+  > endpoints.MapRazorPages();
+
+  * Change font
+
+  * Add connection string
+  >appsettings.json
+
+  * Add-Migration
+  > Add-Migration "Initial-Create"
+  > Update-Databas
+
 ## Day34. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC (1)
 
 #### Purpose
