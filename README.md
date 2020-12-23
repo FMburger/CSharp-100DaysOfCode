@@ -1,8 +1,8 @@
 # C# - 100 days of code
-## Day34. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC
+## Day34. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC (1)
 
 #### Purpose
-> Create a customer Login page in ASP.NET Core MVC 
+> Create a custome Login page in ASP.NET Core MVC 
 
 #### .Net Templae
 > ASP.NET Core Web app (MVC)
@@ -10,7 +10,7 @@
 #### Step by Step
 1. Create a default Asp.net core MVC project
 2. Create a Customize one
-* No authentication
+  * No authentication
 
 3. Customize application
   * Add New Scaffolded Identity
