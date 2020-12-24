@@ -1,5 +1,44 @@
 # C# - 100 days of code
 
+##  Day36. [LeetCode-#412] Fizz Buzz
+
+#### Purpose
+> Find the Fizz, Buzz, and FizzBuzz
+
+#### Topics
+>Math
+
+#### Skill
+
+#### Step by Step
+1. Create a new List
+2. for loop through n
+3. if for multiples of three, output Fizz
+4. if for multiples of five, output Buzz,
+5. if for multiples of three and multiples of five, output FizzBuzz
+
+
+#### Code
+    public IList<string> FizzBuzz(int n) {
+        List<string> res = new List<string>();
+        for(int i = 1; i <= n; i++)
+        {
+            string str = "";
+            if(i % 3 == 0)
+                str = "Fizz";
+            if(i % 5 == 0)
+                str = str + "Buzz";
+            
+            str = str == ""? i.ToString() : str;
+            res.Add(str);
+        }
+        
+        return res;
+    }
+
+#### Success
+![](PNG/412.FizzBuzz.PNG)
+
 ## Day35. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC (2)
 
 #### Purpose
