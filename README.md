@@ -1,5 +1,45 @@
 # C# - 100 days of code
 
+##  Day37 [LeetCode-#415] Add Strings
+
+#### Purpose
+> Return the sum of num1 and num2
+
+#### Topics
+>String
+
+#### Skill
+
+#### Step by Step
+1. Create a new char array
+2. Create a bool carry
+3. Create a integer position
+4. For loop through
+
+#### Code
+     public string AddStrings(string num1, string num2) {
+        char[] output = new char[Math.Max(num1.Length, num2.Length) + 1];
+        bool carry = false;
+        int position = 0;
+
+        for (int first = num1.Length - 1, second = num2.Length - 1; first >= 0 || second >= 0; first--, second--){
+
+            int result = (first >= 0 ? num1[first] - '0' : 0) + (second >= 0 ? num2[second] - '0' : 0) + (carry ? 1 : 0);
+            carry = result >= 10;
+            output[(output.Length - 1) - position++] = (char)('0' + (result % 10));
+        }
+
+        if (carry){
+            output[0] = '1';
+        }
+
+        return new string(
+            output, 
+            carry ? 0 : 1, 
+            carry ? output.Length : output.Length - 1
+        );
+    }
+
 ## Day36. [LeetCode-#412] Fizz Buzz
 
 #### Purpose
