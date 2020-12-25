@@ -1,6 +1,6 @@
 # C# - 100 days of code
 
-##  Day36. [LeetCode-#412] Fizz Buzz
+## Day36. [LeetCode-#412] Fizz Buzz
 
 #### Purpose
 > Find the Fizz, Buzz, and FizzBuzz
@@ -61,6 +61,9 @@
   * Add-Migration
   > Add-Migration "Initial-Create"
   > Update-Databas
+
+#### OverView
+![](GIF/AspDotNetCoreMVCIdentity2.gif)
 
 ## Day34. [ASP.NET Core] Craete a custom login page in ASP.NET Core MVC (1)
 
