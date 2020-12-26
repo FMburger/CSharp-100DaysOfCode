@@ -11,10 +11,6 @@
 #### Skill
 
 #### Step by Step
-1. Create a new char array
-2. Create a bool carry
-3. Create a integer position
-4. For loop through
 
 #### Code
      public string AddStrings(string num1, string num2) {
