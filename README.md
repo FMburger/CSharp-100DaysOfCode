@@ -1,5 +1,34 @@
 # C# - 100 days of code
 
+##  Day38 [LeetCode-#20] Valid Parentheses
+
+#### Purpose
+>
+
+#### Topics
+>
+
+#### Skill
+
+#### Step by Step
+
+#### Code
+    public bool IsValid(string s) {
+            Stack<char> sign = new Stack<char>();
+
+            foreach (var item in s.ToCharArray())
+                if (item == '(')
+                    sign.Push(')');
+                else if (item == '[')
+                    sign.Push(']');
+                else if (item == '{')
+                    sign.Push('}');
+                else if (sign.Count == 0 || sign.Pop() != item)
+                    return false;
+
+            return sign.Count == 0;
+    }
+
 ##  Day37 [LeetCode-#415] Add Strings
 
 #### Purpose
