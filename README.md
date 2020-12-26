@@ -3,31 +3,54 @@
 ##  Day38 [LeetCode-#20] Valid Parentheses
 
 #### Purpose
->
+> Program to determine if the input string is valid or not
 
 #### Topics
->
+> String, Stack
 
 #### Skill
+> Check if Stack is empty.
 
 #### Step by Step
 
 #### Code
     public bool IsValid(string s) {
-            Stack<char> sign = new Stack<char>();
-
-            foreach (var item in s.ToCharArray())
-                if (item == '(')
-                    sign.Push(')');
-                else if (item == '[')
-                    sign.Push(']');
-                else if (item == '{')
-                    sign.Push('}');
-                else if (sign.Count == 0 || sign.Pop() != item)
-                    return false;
-
-            return sign.Count == 0;
+        Stack<char> sign = new Stack<char>();
+        if (String.IsNullOrEmpty(s))
+        {
+            return true;
+        }
+        foreach (var item in s.ToCharArray())
+        {
+            if(sign.Count() == 0){
+                sign.Push(item);
+            }else{
+                if (sign.Peek() == '('){
+                    if(item == ')'){
+                        sign.Pop();
+                    }else{
+                        sign.Push(item);
+                    }
+                }else if(sign.Peek() == '['){
+                    if(item == ']'){
+                        sign.Pop();
+                    }else{
+                        sign.Push(item);
+                    }
+                }else if(sign.Peek() == '{'){
+                    if(item == '}'){
+                        sign.Pop();
+                    }else{
+                        sign.Push(item);
+                    }
+                }
+            }
+        }
+        return sign.Count == 0;
     }
+
+## Success
+![](PNG/20.ValidParentheses.PNG)
 
 ##  Day37 [LeetCode-#415] Add Strings
 
