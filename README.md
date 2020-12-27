@@ -1,6 +1,61 @@
 # C# - 100 days of code
 
-##  Day38 [LeetCode-#20] Valid Parentheses
+## Day39 [LeetCode-155] Min Stack
+
+#### Purpose
+> Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+#### Topics
+> Stack
+
+#### Skill
+>
+
+#### Step by Step
+
+#### Code
+    public class MinStack {
+
+        Stack<int> minStack = new Stack<int>();
+        Stack<int> stack = new Stack<int>();
+
+        /** initialize your data structure here. */
+        public MinStack() {
+
+        }
+
+        public void Push(int x) {
+            stack.Push(x);
+
+            if (!minStack.Any()) {
+                minStack.Push(x);
+            } else {
+                if (minStack.Peek() >= x) {
+                    minStack.Push(x);
+                }
+            }
+        }
+
+        public void Pop() {
+            var x = stack.Pop();
+            if (minStack.Peek() == x) {
+                minStack.Pop();
+            }
+        }
+
+        public int Top() {
+            return stack.Peek();
+        }
+
+        public int GetMin() {
+            return minStack.Peek();
+        }
+    }
+
+## Success
+![](PNG/155.MinStack.PNG)   
+
+## Day38 [LeetCode-#20] Valid Parentheses
 
 #### Purpose
 > Program to determine if the input string is valid or not
