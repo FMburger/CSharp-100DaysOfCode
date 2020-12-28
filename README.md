@@ -1,6 +1,31 @@
 # C# - 100 days of code
 
-## Day39 [LeetCode-155] Min Stack
+## Day40 [LeetCode-#1154] Day of the Year
+
+#### Purpose
+> Return the day number of the year
+
+#### Topics
+> String
+
+#### Skill
+>
+
+#### Step by Step
+
+#### Code
+    public class Solution {
+        public int DayOfYear(string date) 
+        {
+            DateTime d = DateTime.Parse(date);
+            return d.DayOfYear;
+        }
+    }
+
+## Success
+![](PNG/1154.DayoftheYear.PNG)  
+
+## Day39 [LeetCode-#155] Min Stack
 
 #### Purpose
 > Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
