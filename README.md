@@ -9,7 +9,7 @@
 > String
 
 #### Skill
-> Convert string to DateTime,
+> Convert string to DateTime, 
 > Calculate the day of the year
 
 #### Step by Step
