@@ -1,11 +1,58 @@
 # C# - 100 days of code
 
+## Day41 [LeetCode-#118] Pascal's Triangle
+
+#### Purpose
+> Output the first numRows of Pascal's triangle.
+
+#### Topic
+> Array
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public IList<IList<int>> Generate(int numRows) {
+            List<int>[] results = new List<int>[numRows];
+
+                if (numRows != 0)
+                {
+
+                    results[0] = new List<int>();
+                    results[0].Add(1);
+
+                    if (numRows != 0)
+                    {
+                        for (int row = 1; row <= numRows - 1; row++)
+                        {
+                            results[row] = new List<int>();
+
+                            results[row].Add(1);
+
+                            if (row > 1)
+                                for (int i = 1; i <= row - 1; i++)
+                                    results[row].Add(results[row - 1][i - 1] + results[row - 1][i]);
+
+                            results[row].Add(1);
+                        }
+                    }
+                }
+
+                return results;
+        }
+    }
+
+#### Success
+![](PNG/118.Pascal'sTriangle.PNG)  
+
 ## Day40 [LeetCode-#1154] Day of the Year
 
 #### Purpose
 > Return the day number of the year
 
-#### Topics
+#### Topic
 > String
 
 #### Skill
@@ -25,7 +72,7 @@
         }
     }
 
-## Success
+#### Success
 ![](PNG/1154.DayoftheYear.PNG)  
 
 ## Day39 [LeetCode-#155] Min Stack
@@ -80,7 +127,7 @@
         }
     }
 
-## Success
+#### Success
 ![](PNG/155.MinStack.PNG)   
 
 ## Day38 [LeetCode-#20] Valid Parentheses
@@ -132,10 +179,10 @@
         return sign.Count == 0;
     }
 
-## Success
+#### Success
 ![](PNG/20.ValidParentheses.PNG)
 
-##  Day37 [LeetCode-#415] Add Strings
+## Day37 [LeetCode-#415] Add Strings
 
 #### Purpose
 > Return the sum of num1 and num2
