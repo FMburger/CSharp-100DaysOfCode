@@ -9,8 +9,8 @@
 > String
 
 #### Skill
-> * Convert string to DateTime
-> * Calculate the day of the year
+> Convert string to DateTime,
+> Calculate the day of the year
 
 #### Step by Step
 1. Convert String to DateTime
@@ -300,8 +300,8 @@
 Array
 
 #### Skill
-* Nested for loop
-* if 
+> Nested for loop,
+> if 
 
 #### Step by Step
 1. Iterate through Nested for loop
