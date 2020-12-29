@@ -9,9 +9,12 @@
 > String
 
 #### Skill
->
+> * Convert string to DateTime
+> * Calculate the day of the year
 
 #### Step by Step
+1. Convert String to DateTime
+2. Calculate the day of year
 
 #### Code
     public class Solution {
