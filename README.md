@@ -1,5 +1,34 @@
 # C# - 100 days of code
 
+## Day42 ASP.NET Core MVC Shooping Cart (1)
+
+#### Purpose
+> Create a Shopping Cart with ASP.NET Core MVC 
+
+#### .Net Template
+> ASP.NET Core MVC
+
+#### Step by step
+1. Create an ASP.NET Core MVC project
+2. Delete HomeController.cs in the Controllers folder and Home in the Views folder
+3. Create ProductController  under the Controllers folder
+4. Create a product class
+5. Update a product class
+  > public string Id {get; set;}
+  > public string Name {get; set;}
+  > public string Price {get; set;}
+  > public string Photo {get; set;}
+
+6. Create an item class
+  > public Product Product{get; set;}
+  > public int Quantity{get; set;}
+
+7. Add ViewModels folder
+8. Create ProductModel class
+9. Update ProductModel
+
+#### OverView
+
 ## Day41 [LeetCode-#118] Pascal's Triangle
 
 #### Purpose
