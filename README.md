@@ -1,6 +1,6 @@
 # C# - 100 days of code
 
-## Day43 ASP.NET Core MVC Shooping Cart (2)
+## Day43 ASP.NET Core MVC Shopping Cart (2)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
@@ -47,7 +47,7 @@
 
 #### OverView
 
-## Day42 ASP.NET Core MVC Shooping Cart (1)
+## Day42 ASP.NET Core MVC Shopping Cart (1)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
