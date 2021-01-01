@@ -1,5 +1,30 @@
 # C# - 100 days of code
 
+## Day44 ASP.NET Core MVC Shopping Cart (3)
+
+#### Purpose
+> Create a Shopping Cart with ASP.NET Core MVC 
+
+#### .Net Template
+> ASP.NET Core MVC
+
+#### Step by step
+10. Delete Error.cshtml
+11. Add images into images folder
+12. Update ProductController
+  > ProductModel productModel = new ProductModel();
+  > ViewBag.products = productModel.findall();
+13. Add Empty Razor View Index.cshtml
+14. Update Index.html
+  > Code...
+15. Create a Product folder in Views
+16. Move Index.cshtml to Product
+17. Update Startup.cs
+> pattern: "{controller=Product}/{action=Index}/{id?}");
+
+#### OverView
+![](PNG/ShoppingCartAspDotNetMvcProductList.PNG)
+
 ## Day43 ASP.NET Core MVC Shopping Cart (2)
 
 #### Purpose
@@ -63,7 +88,7 @@
 5. Update a product class
   > public string Id {get; set;}
   > public string Name {get; set;}
-  > public string Price {get; set;}
+  > public double Price {get; set;}
   > public string Photo {get; set;}
 
 6. Create an item class

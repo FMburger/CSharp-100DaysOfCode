@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartAspDotNetCoreMvc", "ShoppingCartAspDotNetCoreMvc.csproj", "{887414D3-B01D-4394-8CDE-370AA80AB179}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppigCartAspDotNetCoreMVC", "ShoppigCartAspDotNetCoreMVC.csproj", "{264B50F2-DEF9-41B2-A1AB-B511FA25C264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{887414D3-B01D-4394-8CDE-370AA80AB179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{887414D3-B01D-4394-8CDE-370AA80AB179}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{887414D3-B01D-4394-8CDE-370AA80AB179}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{887414D3-B01D-4394-8CDE-370AA80AB179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264B50F2-DEF9-41B2-A1AB-B511FA25C264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264B50F2-DEF9-41B2-A1AB-B511FA25C264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264B50F2-DEF9-41B2-A1AB-B511FA25C264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264B50F2-DEF9-41B2-A1AB-B511FA25C264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5B906189-FD28-4352-A405-20BB590DF2EA}
+		SolutionGuid = {E8E06E31-6864-4C35-8BA9-F79BA8F39FFF}
 	EndGlobalSection
 EndGlobal

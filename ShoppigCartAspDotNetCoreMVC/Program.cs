@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ShoppingCartAspDotNetCoreMvc
+namespace ShoppigCartAspDotNetCoreMVC
 {
     public class Program
     {
