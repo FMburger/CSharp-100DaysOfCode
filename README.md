@@ -1,5 +1,37 @@
 # C# - 100 days of code
 
+## Day45 ASP.NET Core MVC Shopping Cart (4)
+
+#### Purpose
+> Create a Shopping Cart with ASP.NET Core MVC 
+
+#### .Net Template
+> ASP.NET Core MVC
+
+#### Step by step
+18. Add a new controller "Cartcontroller"
+19. Add a new folder "Helper"
+20. Add a new class "SessionHelper"
+21. Install Nuget "Newtonsoft.Json"
+21. Update SessionHelper
+  > public static class SessionHelper
+  > {
+  >     public static void SetObjectAsJson(this ISession session, string key, object value)
+  >     {
+  >         session.SetString(key, JsonConvert.SerializeObject(value));
+  >     }
+
+  >     public static T GetObjectFromJson<T>(this ISession session, string key)
+  >     {
+  >         var value = session.GetString(key);
+  >         return value == null ? default : JsonConvert.DeserializeObject<T>(value);
+  >     }
+  > }
+
+
+#### OverView
+![](PNG/)
+
 ## Day44 ASP.NET Core MVC Shopping Cart (3)
 
 #### Purpose
@@ -14,13 +46,15 @@
 12. Update ProductController
   > ProductModel productModel = new ProductModel();
   > ViewBag.products = productModel.findall();
+
 13. Add Empty Razor View Index.cshtml
 14. Update Index.html
   > Code...
+
 15. Create a Product folder in Views
 16. Move Index.cshtml to Product
 17. Update Startup.cs
-> pattern: "{controller=Product}/{action=Index}/{id?}");
+  > pattern: "{controller=Product}/{action=Index}/{id?}";
 
 #### OverView
 ![](PNG/ShoppingCartAspDotNetMvcProductList.PNG)
@@ -83,7 +117,7 @@
 #### Step by step
 1. Create an ASP.NET Core MVC project
 2. Delete HomeController.cs in the Controllers folder and Home in the Views folder
-3. Create ProductController  under the Controllers folder
+3. Add a new controller "ProductController"
 4. Create a product class
 5. Update a product class
   > public string Id {get; set;}
