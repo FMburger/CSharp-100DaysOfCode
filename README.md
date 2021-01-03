@@ -1,5 +1,22 @@
 # C# - 100 days of code
 
+## Day46 ASP.NET Core MVC Shopping Cart (5)
+
+#### Purpose
+> Create a Shopping Cart with ASP.NET Core MVC 
+
+#### .Net Template
+> ASP.NET Core MVC
+
+#### Step by step
+23. Update CartController
+  >  var cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");
+  >  ViewBag.cart = cart;
+  >  ViewBag.total = cart.Sum(Item => Item.Product.Price * Item.Quantity);
+
+#### OverView
+![](PNG/)
+
 ## Day45 ASP.NET Core MVC Shopping Cart (4)
 
 #### Purpose
@@ -13,7 +30,7 @@
 19. Add a new folder "Helper"
 20. Add a new class "SessionHelper"
 21. Install Nuget "Newtonsoft.Json"
-21. Update SessionHelper
+22. Update SessionHelper
   > public static class SessionHelper
   > {
   >     public static void SetObjectAsJson(this ISession session, string key, object value)
