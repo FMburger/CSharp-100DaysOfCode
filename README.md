@@ -1,5 +1,32 @@
 # C# - 100 days of code
 
+## Day47 [LeetCode-#252] Meeting Rooms
+
+#### Purpose
+> Determine if a person could attend all meetings.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public bool CanAttendMeetings(int[][] intervals) {
+            var sortedIntervals = intervals.OrderBy(I => I[1]).ToArray();
+            for (var i = 0; i < sortedIntervals.Length; i++) {
+                if (i + 1 < sortedIntervals.Length && sortedIntervals[i][1] > sortedIntervals[i+1][0]) {
+                    return false; 
+                }
+            }
+            return true; 
+        }
+    }
+
+#### Success
+![](PNG/252.MeetingRooms.PNG)  
+
 ## Day46 ASP.NET Core MVC Shopping Cart (5)
 
 #### Purpose
