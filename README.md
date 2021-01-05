@@ -1,5 +1,47 @@
 # C# - 100 days of code
 
+## Day48 [LeetCode-#1002] Find Common Characters
+
+#### Purpose
+> Find the duplicate character in string array.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public IList<string> CommonChars(string[] A)
+            {
+                int[,] chars = new int[A.Length, 26];
+                IList<string> result = new List<string>();
+
+                for (int i = 0; i < A.Length; i++)
+                    foreach (var item in A[i])
+                        chars[i, item - 'a']++;
+
+                for (int i = 0; i < 26; i++)
+                {
+                    int min = Int32.MaxValue;
+
+                    for (int j = 0; j < A.Length; j++)
+                        if (chars[j, i] < min)
+                            min = chars[j, i];
+
+                    if (min > 0)
+                        for (int j = 0; j < min; j++)
+                            result.Add(((char)(i + 'a')).ToString());
+                }
+
+                return result;
+            }
+    }
+
+#### Success
+![](PNG/1002.FindCommonCharacters.PNG)
+
 ## Day47 [LeetCode-#252] Meeting Rooms
 
 #### Purpose
