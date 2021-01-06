@@ -3,9 +3,10 @@
 ## Day48 [LeetCode-#1002] Find Common Characters
 
 #### Purpose
-> Find the duplicate character in string array.
+> Find the duplicate characters in a string array.
 
 #### Topic
+> Array
 
 #### Skill
 
@@ -14,29 +15,36 @@
 #### Code
     public class Solution {
         public IList<string> CommonChars(string[] A)
+        {
+            int[,] chars = new int[A.Length, 26];
+            IList<string> result = new List<string>();
+
+            for (int i = 0; i < A.Length; i++)
             {
-                int[,] chars = new int[A.Length, 26];
-                IList<string> result = new List<string>();
-
-                for (int i = 0; i < A.Length; i++)
-                    foreach (var item in A[i])
-                        chars[i, item - 'a']++;
-
-                for (int i = 0; i < 26; i++)
+                foreach (var item in A[i])
                 {
-                    int min = Int32.MaxValue;
+                    chars[i, item - 'a']++;
+                }
+            }
+                
 
-                    for (int j = 0; j < A.Length; j++)
-                        if (chars[j, i] < min)
-                            min = chars[j, i];
+            for (int i = 0; i < 26; i++)
+            {
+                int min = Int32.MaxValue;
 
-                    if (min > 0)
-                        for (int j = 0; j < min; j++)
-                            result.Add(((char)(i + 'a')).ToString());
+                for (int j = 0; j < A.Length; j++)
+                {
+                    if (chars[j, i] < min)
+                        min = chars[j, i];
                 }
 
-                return result;
+                if (min > 0)
+                    for (int j = 0; j < min; j++)
+                        result.Add(((char)(i + 'a')).ToString());
             }
+
+            return result;
+        }
     }
 
 #### Success
