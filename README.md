@@ -1,5 +1,54 @@
 # C# - 100 days of code
 
+## Day49 [LeetCode-#1122] RelativeSortArray
+
+#### Purpose
+> Sort in specific order
+
+#### Topic
+> Array
+
+#### Skill
+> 
+
+#### Step by step
+> 
+
+#### Code
+    public int[] RelativeSortArray(int[] arr1, int[] arr2) {        
+            if(arr2.Length<=1)
+                return arr2;
+            int z = 0;
+            int[] arr3 = new int[arr1.Length];        
+            for(int y=0; y<arr2.Length; y++){
+                for(int i=0; i< arr1.Length; i++) {
+                    if(arr1[i] == arr2[y])
+                        arr3[z++] = arr2[y];               
+                }
+            }
+        
+        int m = z;
+        for(int i=0; i<arr1.Length; i++){
+            if(Array.IndexOf(arr2, arr1[i])<0) {
+                arr3[z++] = arr1[i];
+            }               
+        }
+        int temp = 0;
+        for (int write = m; write < arr3.Length; write++) {
+                for (int sort = m; sort < arr3.Length - 1; sort++) {
+                    if (arr3[sort] > arr3[sort + 1]) {
+                        temp = arr3[sort + 1];
+                        arr3[sort + 1] = arr3[sort];
+                        arr3[sort] = temp;
+                    }
+                }
+            }
+        return arr3;
+        }
+
+#### Success
+![](PNG/)
+
 ## Day48 [LeetCode-#1002] Find Common Characters
 
 #### Purpose
@@ -27,7 +76,6 @@
                 }
             }
                 
-
             for (int i = 0; i < 26; i++)
             {
                 int min = Int32.MaxValue;
