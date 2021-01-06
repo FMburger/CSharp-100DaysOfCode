@@ -1,6 +1,6 @@
 # C# - 100 days of code
 
-## Day49 [LeetCode-#1122] RelativeSortArray
+## Day49 [LeetCode-#1122] Relative Sort Array
 
 #### Purpose
 > Sort in specific order
