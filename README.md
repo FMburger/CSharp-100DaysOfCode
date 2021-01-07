@@ -1,5 +1,37 @@
 # C# - 100 days of code
 
+## Day50 [LeetCode-#1636] Sort Array by Increasing Frequency
+
+#### Purpose
+> Return the sorted array
+
+#### Topic
+> Array
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int[] FrequencySort(int[] nums) {
+            var dict = new Dictionary<int,int>();
+            foreach (var n in nums)
+            {
+                if (!dict.ContainsKey(n))
+                    dict.Add(n, 0);
+                    
+                dict[n]++;
+            }
+            
+            return dict.OrderBy(d => d.Value).ThenByDescending(d => d.Key)
+                .SelectMany(d => Enumerable.Repeat(d.Key, d.Value).ToArray()).ToArray();
+        }
+    }
+
+#### Success
+![](PNG/1636.SortArraybyIncreasingFrequency.PNG)
+
 ## Day49 [LeetCode-#1122] Relative Sort Array
 
 #### Purpose
