@@ -1,5 +1,37 @@
 # C# - 100 days of code
 
+## Day51 [LeetCode-#1365] HowManyNumbersAreSmallerThantheCurrentNumber
+
+#### Purpose
+> Find out how many numbers in the array are smaller than it.
+
+#### Topic
+> Array
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int[] SmallerNumbersThanCurrent(int[] nums) {
+            int[] freq = new int[101], result = new int[nums.Length];
+            
+            foreach(var num in nums)
+                freq[num]++;
+            
+            for(int i = 0; i <= 100; i++)
+                freq[i] = i == 0 ? freq[i] : freq[i] + freq[i - 1];
+            
+            for(int i = 0; i < nums.Length; i++)
+                result[i] = nums[i] == 0 ? 0 : freq[nums[i] - 1];
+            
+            return result;
+        }
+    }
+#### Success
+![](PNG/1365.HowManyNumbersAreSmallerThantheCurrentNumber.PNG)
+
 ## Day50 [LeetCode-#1636] Sort Array by Increasing Frequency
 
 #### Purpose
