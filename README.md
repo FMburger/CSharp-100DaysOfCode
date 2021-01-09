@@ -1,5 +1,40 @@
 # C# - 100 days of code
 
+## Day52 [LeetCode-#26] Remove Duplicates from Sorted Array
+
+#### Purpose
+> Remove Duplicates from Sorted Array
+#### Topic
+> Array
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int RemoveDuplicates(int[] nums) {
+            if (nums == null || nums.Length == 0)
+                return 0;
+            else if (nums.Length == 1)
+                return 1;
+                
+            int index1 = 0,
+                index2 = 1;
+                
+            while(index2 <= nums.Length - 1)
+                if(nums[index1] == nums[index2])
+                    index2++;
+                else
+                    nums[++index1] = nums[index2++];
+            
+            return ++index1;
+        }
+    }
+
+#### Success
+![](PNG/26.RemoveDuplicatesfromSortedArray.PNG)
+
 ## Day51 [LeetCode-#1365] HowManyNumbersAreSmallerThantheCurrentNumber
 
 #### Purpose
