@@ -1,5 +1,9 @@
 # C# - 100 days of code
 
+## Day53 Update Snippets In VSCode
+
+#### Summary
+
 ## Day52 [LeetCode-#26] Remove Duplicates from Sorted Array
 
 #### Purpose
