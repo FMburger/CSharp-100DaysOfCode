@@ -2,7 +2,7 @@
 
 ## Day53 Update Snippets In VSCode
 
-#### Summary
+#### Update Snippets 
 
 ## Day52 [LeetCode-#26] Remove Duplicates from Sorted Array
 
