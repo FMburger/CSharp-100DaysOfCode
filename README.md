@@ -1,5 +1,66 @@
 # C# - 100 days of code
 
+## Day54 [LeetCode-#1064] Fixed Point
+
+#### Purpose
+> Return the smallest index i that satisfies A[i] == i.  Return -1 if no such i exists.
+
+#### Topic
+> Array
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution
+    {
+        private int Helper(int[] nums, int left, int right)
+        {
+            int res = int.MaxValue;
+
+            while (left < right)
+            {
+                int mid = left + (right - left) / 2;
+
+                int midItem = nums[mid];
+                if (midItem == mid)
+                {
+                    res = Math.Min(res, mid);
+                    right = mid;
+                    continue;
+                }
+
+                if (midItem > mid)
+                {
+                    right = mid;
+                    continue;
+                }
+
+                left = mid + 1;
+            }
+
+            if (nums[left] == left)
+            {
+                res = Math.Min(res, left);
+            }
+
+            if (nums[right] == right)
+            {
+                res = Math.Min(res, right);
+            }
+
+            return res == int.MaxValue ? -1 : res;
+        }
+
+        public int FixedPoint(int[] nums)
+        {
+            return Helper(nums, 0, nums.Length - 1);
+        }
+    }
+#### Success
+![](PNG/1064.FixedPoint.PNG)
+
 ## Day53 Update Snippets In VSCode
 
 #### Update Snippets 
