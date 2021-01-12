@@ -1,5 +1,17 @@
 # C# - 100 days of code
 
+## Day55 Using Fluent API to configure database schema
+
+#### Purpose
+
+#### .Net Template
+> ASP.NET Core MVC
+
+#### Step by step
+
+#### OverView
+![](PNG/)
+
 ## Day54 [LeetCode-#1064] Fixed Point
 
 #### Purpose
