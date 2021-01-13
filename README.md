@@ -1,5 +1,18 @@
 # C# - 100 days of code
 
+## Day56 Constructing a new DBContext
+
+#### Purpose
+> Constructing a new DBContext
+
+#### .Net Template
+> ASP.NET Core MVC
+
+#### Step by step
+
+#### OverView
+![](PNG/)
+
 ## Day55 Using Fluent API to configure database schema
 
 #### Purpose
