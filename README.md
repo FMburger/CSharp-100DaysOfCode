@@ -1,5 +1,20 @@
 # C# - 100 days of code
 
+## Day58 [LeetCode-#1103] Distribute Candies to People
+
+#### Purpose
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+
+#### Success
+![](PNG/)
+
 ## Day57 Unit Test
 
 #### Purpose
