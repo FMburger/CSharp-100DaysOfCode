@@ -1,4 +1,32 @@
 # C# - 100 days of code
+## Day59 [LeetCode-#938] Range Sum of BST
+
+#### Purpose
+> Range Sum of BST
+
+#### Topic
+> Tree
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int RangeSumBST(TreeNode root, int L, int R) {
+            if (root == null) return 0;
+            var sum = 0;
+            if (L <= root.val && root.val <= R) {
+                sum = root.val;
+            }
+            var left = RangeSumBST(root.left, L, R);
+            var right = RangeSumBST(root.right, L, R);
+            return sum + left + right;
+        }
+    }
+
+#### Success
+![](PNG/)
 
 ## Day58 [LeetCode-#1103] Distribute Candies to People
 
