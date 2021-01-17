@@ -1,4 +1,9 @@
 # C# - 100 days of code
+
+## Day60 Update Snippets In VSCode
+
+#### Update Snippets
+
 ## Day59 [LeetCode-#938] Range Sum of BST
 
 #### Purpose
