@@ -1,6 +1,6 @@
 # C# - 100 days of code
 
-## Day61 CRUD without Entity Framework in ASP.NET Core MVC
+## Day61. CRUD without Entity Framework in ASP.NET Core MVC
 
 #### Purpose
 > CRUD without Entity Framework in ASP.NET Core mvc
@@ -12,11 +12,11 @@
 #### OverView
 ![](PNG/)
 
-## Day60 Update Snippets In VSCode
+## Day60. Update Snippets In VSCode
 
 #### Update Snippets
 
-## Day59 [LeetCode-#938] Range Sum of BST
+## Day59. [LeetCode-#938] Range Sum of BST
 
 #### Purpose
 > Range Sum of BST
@@ -45,7 +45,7 @@
 #### Success
 ![](PNG/)
 
-## Day58 [LeetCode-#1103] Distribute Candies to People
+## Day58. [LeetCode-#1103] Distribute Candies to People
 
 #### Purpose
 
@@ -60,7 +60,7 @@
 #### Success
 ![](PNG/)
 
-## Day57 Unit Test
+## Day57. Unit Test
 
 #### Purpose
 
@@ -71,7 +71,7 @@
 #### OverView
 ![](PNG/)
 
-## Day56 Constructing a new DBContext
+## Day56. Constructing a new DBContext
 
 #### Purpose
 > Constructing a new DBContext
@@ -84,7 +84,7 @@
 #### OverView
 ![](PNG/)
 
-## Day55 Using Fluent API to configure database schema
+## Day55. Using Fluent API to configure database schema
 
 #### Purpose
 
@@ -96,7 +96,7 @@
 #### OverView
 ![](PNG/)
 
-## Day54 [LeetCode-#1064] Fixed Point
+## Day54. [LeetCode-#1064] Fixed Point
 
 #### Purpose
 > Return the smallest index i that satisfies A[i] == i.  Return -1 if no such i exists.
@@ -157,11 +157,11 @@
 #### Success
 ![](PNG/1064.FixedPoint.PNG)
 
-## Day53 Update Snippets In VSCode
+## Day53. Update Snippets In VSCode
 
 #### Update Snippets 
 
-## Day52 [LeetCode-#26] Remove Duplicates from Sorted Array
+## Day52. [LeetCode-#26] Remove Duplicates from Sorted Array
 
 #### Purpose
 > Remove Duplicates from Sorted Array
@@ -196,7 +196,7 @@
 #### Success
 ![](PNG/26.RemoveDuplicatesfromSortedArray.PNG)
 
-## Day51 [LeetCode-#1365] HowManyNumbersAreSmallerThantheCurrentNumber
+## Day51. [LeetCode-#1365] HowManyNumbersAreSmallerThantheCurrentNumber
 
 #### Purpose
 > Find out how many numbers in the array are smaller than it.
@@ -228,7 +228,7 @@
 #### Success
 ![](PNG/1365.HowManyNumbersAreSmallerThantheCurrentNumber.PNG)
 
-## Day50 [LeetCode-#1636] Sort Array by Increasing Frequency
+## Day50. [LeetCode-#1636] Sort Array by Increasing Frequency
 
 #### Purpose
 > Return the sorted array
@@ -260,7 +260,7 @@
 #### Success
 ![](PNG/1636.SortArraybyIncreasingFrequency.PNG)
 
-## Day49 [LeetCode-#1122] Relative Sort Array
+## Day49. [LeetCode-#1122] Relative Sort Array
 
 #### Purpose
 > Sort in specific order
@@ -309,7 +309,7 @@
 #### Success
 ![](PNG/)
 
-## Day48 [LeetCode-#1002] Find Common Characters
+## Day48. [LeetCode-#1002] Find Common Characters
 
 #### Purpose
 > Find the duplicate characters in a string array.
@@ -358,7 +358,7 @@
 #### Success
 ![](PNG/1002.FindCommonCharacters.PNG)
 
-## Day47 [LeetCode-#252] Meeting Rooms
+## Day47. [LeetCode-#252] Meeting Rooms
 
 #### Purpose
 > Determine if a person could attend all meetings.
@@ -385,7 +385,7 @@
 #### Success
 ![](PNG/252.MeetingRooms.PNG)  
 
-## Day46 ASP.NET Core MVC Shopping Cart (5)
+## Day46. ASP.NET Core MVC Shopping Cart (5)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
@@ -402,7 +402,7 @@
 #### OverView
 ![](PNG/)
 
-## Day45 ASP.NET Core MVC Shopping Cart (4)
+## Day45. ASP.NET Core MVC Shopping Cart (4)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
@@ -434,7 +434,7 @@
 #### OverView
 ![](PNG/)
 
-## Day44 ASP.NET Core MVC Shopping Cart (3)
+## Day44. ASP.NET Core MVC Shopping Cart (3)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
@@ -461,7 +461,7 @@
 #### OverView
 ![](PNG/ShoppingCartAspDotNetMvcProductList.PNG)
 
-## Day43 ASP.NET Core MVC Shopping Cart (2)
+## Day43. ASP.NET Core MVC Shopping Cart (2)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
@@ -508,7 +508,7 @@
 
 #### OverView
 
-## Day42 ASP.NET Core MVC Shopping Cart (1)
+## Day42. ASP.NET Core MVC Shopping Cart (1)
 
 #### Purpose
 > Create a Shopping Cart with ASP.NET Core MVC 
@@ -537,7 +537,7 @@
 
 #### OverView
 
-## Day41 [LeetCode-#118] Pascal's Triangle
+## Day41. [LeetCode-#118] Pascal's Triangle
 
 #### Purpose
 > Output the first numRows of Pascal's triangle.
@@ -584,7 +584,7 @@
 #### Success
 ![](PNG/118.Pascal'sTriangle.PNG)  
 
-## Day40 [LeetCode-#1154] Day of the Year
+## Day40. [LeetCode-#1154] Day of the Year
 
 #### Purpose
 > Return the day number of the year
@@ -612,7 +612,7 @@
 #### Success
 ![](PNG/1154.DayoftheYear.PNG)  
 
-## Day39 [LeetCode-#155] Min Stack
+## Day39. [LeetCode-#155] Min Stack
 
 #### Purpose
 > Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -667,7 +667,7 @@
 #### Success
 ![](PNG/155.MinStack.PNG)   
 
-## Day38 [LeetCode-#20] Valid Parentheses
+## Day38. [LeetCode-#20] Valid Parentheses
 
 #### Purpose
 > Program to determine if the input string is valid or not
@@ -719,7 +719,7 @@
 #### Success
 ![](PNG/20.ValidParentheses.PNG)
 
-## Day37 [LeetCode-#415] Add Strings
+## Day37. [LeetCode-#415] Add Strings
 
 #### Purpose
 > Return the sum of num1 and num2
