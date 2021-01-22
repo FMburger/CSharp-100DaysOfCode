@@ -1,5 +1,39 @@
 # C# - 100 days of code
 
+## Day65 [LeetCode-#589] N-ary Tree Preorder Traversal
+
+#### Purpose
+> return the preorder traversal of its nodes' values.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public IList<int> Preorder(Node root) {
+            IList<int> preOrder = new List<int>();
+            Stack<Node> s = new Stack<Node>();
+            Node tmp;
+
+            s.Push(root);
+            while (s.TryPop(out tmp) && tmp != null)
+            {
+                preOrder.Add(tmp.val);
+                for (int i = tmp.children.Count - 1; i >= 0; i--)
+                {
+                    s.Push(tmp.children[i]);
+                }
+            }
+            return preOrder;
+        }
+    }
+
+#### Success
+![](PNG/)
+
 ## Day64 [LeetCode-#100] Same Tree
 
 #### Purpose
