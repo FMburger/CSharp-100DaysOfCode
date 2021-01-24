@@ -1,5 +1,9 @@
 # C# - 100 days of code
 
+## Day67 Update Snippets In VSCode
+
+#### Update Snippets
+
 ## Day66 [LeetCode-#226] Invert Binary Tree
 
 #### Purpose
