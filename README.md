@@ -1,5 +1,70 @@
 # C# - 100 days of code
 
+## Day68 [LeetCode-#461] Hamming Distance
+![](PNG/HammingDistance.png)
+
+#### Purpose
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int HammingDistance(int x, int y) {
+            var z = x ^ y;
+            var count = 0;
+            while (z > 0) {
+                count += z & 1;
+                z >>= 1;
+            }
+            return count;
+        }
+    }
+#### Success
+![](PNG/461.HammingDistance.PNG)
+
+## Day67 Update Snippets In VSCode
+
+#### Update Snippets
+
+## Day66 [LeetCode-#226] Invert Binary Tree
+
+#### Purpose
+> Invert a binary tree.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+>   public class Solution {
+        public TreeNode InvertTree(TreeNode root) {
+            if (root == null)
+                return root;
+            
+            if (root.left != null || root.right != null)
+            {
+                TreeNode temp = root.left;
+                
+                root.left = root.right;
+                root.right = temp;
+                
+                InvertTree(root.left);
+                InvertTree(root.right);
+            }
+            
+            return root;
+        }
+    }
+
+#### Success
+![](PNG/226.InvertBinaryTree.PNG)
+
 ## Day65 [LeetCode-#589] N-ary Tree Preorder Traversal
 
 #### Purpose
