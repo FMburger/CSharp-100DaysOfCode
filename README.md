@@ -7,6 +7,7 @@
 Calculate Hamming Distance
 
 #### Topic
+> Math
 
 #### Skill
 
