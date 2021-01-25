@@ -16,25 +16,25 @@
 #### Step by step
 
 #### Code
-> public class Solution {
-    public TreeNode InvertTree(TreeNode root) {
-        if (root == null)
+>   public class Solution {
+        public TreeNode InvertTree(TreeNode root) {
+            if (root == null)
+                return root;
+            
+            if (root.left != null || root.right != null)
+            {
+                TreeNode temp = root.left;
+                
+                root.left = root.right;
+                root.right = temp;
+                
+                InvertTree(root.left);
+                InvertTree(root.right);
+            }
+            
             return root;
-        
-        if (root.left != null || root.right != null)
-        {
-            TreeNode temp = root.left;
-            
-            root.left = root.right;
-            root.right = temp;
-            
-            InvertTree(root.left);
-            InvertTree(root.right);
         }
-        
-        return root;
     }
-}
 
 #### Success
 ![](PNG/226.InvertBinaryTree.PNG)
