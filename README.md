@@ -4,6 +4,7 @@
 ![](PNG/HammingDistance.png)
 
 #### Purpose
+Calculate Hamming Distance
 
 #### Topic
 
