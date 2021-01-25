@@ -1,5 +1,31 @@
 # C# - 100 days of code
 
+## Day68 [LeetCode-#461] Hamming Distance
+![](PNG/HammingDistance.png)
+
+#### Purpose
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int HammingDistance(int x, int y) {
+            var z = x ^ y;
+            var count = 0;
+            while (z > 0) {
+                count += z & 1;
+                z >>= 1;
+            }
+            return count;
+        }
+    }
+#### Success
+![](PNG/461.HammingDistance.PNG)
+
 ## Day67 Update Snippets In VSCode
 
 #### Update Snippets
