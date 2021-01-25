@@ -32,7 +32,7 @@
     }
 
 #### Success
-![](PNG/)
+![](PNG/589.N-aryTreePreorderTraversal.PNG)
 
 ## Day64 [LeetCode-#100] Same Tree
 
