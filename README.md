@@ -1,5 +1,37 @@
 # C# - 100 days of code
 
+## Day69 [LeetCode-#141] Linked List Cycle
+
+#### Purpose
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public bool HasCycle(ListNode head) 
+        {
+            if(head == null)
+                return false;
+            ListNode slow = head;
+            ListNode fast = head.next;
+            
+            while(slow!=null && fast!=null && slow!=fast)
+            {
+                slow = slow?.next;
+                fast = fast?.next?.next;
+            }
+            if(slow == fast && slow!=null)
+                return true;
+            return false;
+        }
+    }
+#### Success
+![](PNG/141.LinkedListCycle.PNG)
+
 ## Day68 [LeetCode-#461] Hamming Distance
 ![](PNG/HammingDistance.png)
 
