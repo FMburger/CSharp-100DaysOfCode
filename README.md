@@ -1,5 +1,34 @@
 # C# - 100 days of code
 
+## Day70 [LeetCode-#1716] Calculate Money in Leetcode Bank
+
+#### Purpose
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int TotalMoney(int n) {
+            int[] output = new int[n+1];
+            output[1] = 1;
+            for (int i = 2; i <= n; i++)
+            {
+                if (i > 7 && i % 7 == 1)
+                    output[i] = output[i - 7] + 1;
+                else
+                    output[i] = output[i - 1] + 1;
+            }
+            
+            return output.Sum();
+        }
+    }
+#### Success
+![](PNG/1716.CalculateMoneyinLeetcodeBank.PNG)
+
 ## Day69 [LeetCode-#141] Linked List Cycle
 
 #### Purpose
