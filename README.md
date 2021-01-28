@@ -1,6 +1,42 @@
 # C# - 100 days of code
 
+## Day71 [LeetCode-#53] Maximum Subarray
 
+#### Purpose
+> Find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int MaxSubArray(int[] nums) {
+            int maxSum = 0;        
+            int curSum = 0;
+            foreach(var i in nums){
+                maxSum += i;
+            }
+            for (var i = 0; i < nums.Count(); i++)
+            {            
+                curSum += nums[i];
+                if(maxSum < curSum) 
+                {
+                    maxSum = curSum;
+                }
+                if(curSum < 0)
+                {
+                    curSum = 0;
+                }
+            }    
+            return maxSum;
+        }
+    }
+
+#### Success
+![](PNG/53.MaximumSubarray.PNG)
 
 ## Day70 [LeetCode-#1716] Calculate Money in Leetcode Bank
 
