@@ -1,5 +1,53 @@
 # C# - 100 days of code
 
+## Day72 [LeetCode-#15] 3Sum
+
+#### Purpose
+> Find all unique triplets in the array which gives the sum of zero.
+
+#### Topic
+> Two pointers
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public IList<IList<int>> ThreeSum(int[] nums) {
+            Array.Sort(nums);
+
+            var result = new List<IList<int>>();
+
+            var n = nums.Length;
+            for (int i = 0; i < n; i++) {
+                if (i > 0 && nums[i - 1] == nums[i]) continue;
+
+                var left = i + 1;
+                var right = n - 1;
+
+                while (left < right) {
+                    var sum = nums[i] + nums[left] + nums[right];
+                    if (sum == 0) {
+                        result.Add(new List<int>() { nums[i], nums[left], nums[right] });
+                        while (left < right && nums[left] == nums[left + 1]) left++;
+                        while (left < right && nums[right] == nums[right - 1]) right--;
+                        left++;
+                        right--;
+                    } else if (sum < 0) {
+                        left++;
+                    } else {
+                        right--;
+                    }
+                }
+            }
+
+            return result;
+        }
+    }
+    
+#### Success
+![](PNG/15.3Sum.PNG)
+
 ## Day71 [LeetCode-#53] Maximum Subarray
 
 #### Purpose
@@ -42,6 +90,7 @@
 
 #### Purpose
 > Calculate Money in Leetcode Bank
+
 #### Topic
 
 #### Skill
