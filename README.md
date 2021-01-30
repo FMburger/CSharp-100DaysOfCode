@@ -1,5 +1,27 @@
 # C# - 100 days of code
 
+## Day73 [LeetCode-#35] Search Insert Position
+
+#### Purpose
+>  Return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+#### Topic
+> Binary Search
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int SearchInsert(int[] nums, int target) {
+            int i = nums.ToList().BinarySearch(target);
+            return i >= 0 ? i: ~i;
+        }
+    }
+#### Success
+![](PNG/)
+
 ## Day72 [LeetCode-#15] 3Sum
 
 #### Purpose
@@ -44,7 +66,7 @@
             return result;
         }
     }
-    
+  
 #### Success
 ![](PNG/15.3Sum.PNG)
 
