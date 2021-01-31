@@ -1,5 +1,9 @@
 # C# - 100 days of code
 
+## Day74 Update Snippets In VSCode
+
+#### Update Snippets
+
 ## Day73 [LeetCode-#35] Search Insert Position
 
 #### Purpose
