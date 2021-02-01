@@ -1,5 +1,21 @@
 # C# - 100 days of code
 
+## Day75 [LeetCode-#1380] Lucky Numbers in a Matrix
+
+#### Purpose
+> Return all lucky numbers in the matrix in any order.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+
+#### Success
+![](PNG/1380.LuckyNumbersinaMatrix.PNG)
+
 ## Day74 Update Snippets In VSCode
 
 #### Update Snippets
