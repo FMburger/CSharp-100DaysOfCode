@@ -12,6 +12,34 @@
 #### Step by step
 
 #### Code
+    public class Solution {
+        public IList<int> LuckyNumbers (int[][] matrix) 
+        {
+            int m = matrix.Length;
+            int n = matrix[0].Length;
+            var result = new List<int>();
+            var minRows = new int[m];
+            var maxCols = new int[n];
+            for(int i = 0; i < m; i++)
+                minRows[i] = matrix[i].Min();
+            for(int i = 0; i < n; i++)
+            {
+                int max = int.MinValue;
+                for(int j = 0; j < m; j++)
+                    max = Math.Max(max, matrix[j][i]);
+                maxCols[i] = max;
+            }
+            for(int i = 0; i < m; i++)
+            {
+                for(int j = 0; j < n; j++)
+                {
+                    if(minRows[i] == matrix[i][j] && maxCols[j] == matrix[i][j])
+                        result.Add(matrix[i][j]);
+                }
+            }
+            return result;
+        }
+    }
 
 #### Success
 ![](PNG/1380.LuckyNumbersinaMatrix.PNG)
