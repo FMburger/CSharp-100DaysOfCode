@@ -1,5 +1,43 @@
 # C# - 100 days of code
 
+## Day76 [LeetCode-#349] Intersection of Two Arrays
+
+#### Purpose
+> Write a function to compute their intersection.
+
+#### Topic
+> Sort
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution
+    {
+        public int[] Intersection(int[] nums1, int[] nums2)
+        {
+            if (nums1.Length > nums2.Length) return Intersection(nums2, nums1);
+            var elements = new HashSet<int>();
+            var result = new HashSet<int>();
+            foreach (var num in nums1)   
+            {
+                elements.Add(num);
+            }
+            foreach (var num in nums2)
+            {
+                if (elements.Contains(num))
+                {
+                    result.Add(num);
+                }
+            }
+            return result.ToArray();
+        }
+    }
+
+#### Success
+![](PNG/349.IntersectionofTwoArrays.PNG)
+
 ## Day75 [LeetCode-#1380] Lucky Numbers in a Matrix
 
 #### Purpose
@@ -522,7 +560,8 @@ Calculate Hamming Distance
 ## Day52. [LeetCode-#26] Remove Duplicates from Sorted Array
 
 #### Purpose
-> Remove Duplicates from Sorted Array
+> Remove duplicates from Sorted Array
+
 #### Topic
 > Array
 
