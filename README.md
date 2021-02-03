@@ -1,5 +1,45 @@
 # C# - 100 days of code
 
+## Day77 [LeetCode-#1046] Last Stone Weight
+
+#### Purpose
+> Return the weight of this stone 
+
+#### Topic
+> Heap
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int LastStoneWeight(int[] stones) {
+            List<int> stoneList = new List<int>(stones);
+            return stoneHelper(stoneList);
+        }
+        
+        public int stoneHelper(List<int> stones) {
+            if(stones.Count == 0 )
+                return 0;
+            else if (stones.Count == 1)
+                return stones[0];
+            else  {
+                int max = stones.Max();
+                stones.Remove(max);
+                int sMax = stones.Max();
+                stones.Remove(sMax);
+
+                if (sMax < max) {
+                    stones.Add(max-sMax);
+                }
+                return stoneHelper(stones); 
+            }
+        }
+    }
+#### Success
+![](PNG/1046.LastStoneWeight.PNG)
+
 ## Day76 [LeetCode-#349] Intersection of Two Arrays
 
 #### Purpose
