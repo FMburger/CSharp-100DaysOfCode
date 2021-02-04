@@ -1,5 +1,40 @@
 # C# - 100 days of code
 
+## Day78 [LeetCode-#897] Increasing Order Search Tree
+
+#### Purpose
+
+#### Topic
+> Recursion
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public TreeNode IncreasingBST(TreeNode root) {
+            var list = new List<TreeNode>();
+            Search(root, list);
+            for (var i = 0; i < list.Count; i++) {
+                list[i].left = null;
+                list[i].right = i < list.Count - 1 ? list[i + 1] : null;
+            }
+            return list.First();
+        }
+        
+        void Search(TreeNode root, List<TreeNode> list) {
+            if (root == null) {
+                return;
+            }
+            Search(root.left, list);
+            list.Add(root);
+            Search(root.right, list);
+        }
+    }
+#### Success
+![](PNG/)
+
 ## Day77 [LeetCode-#1046] Last Stone Weight
 
 #### Purpose
