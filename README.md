@@ -1,5 +1,46 @@
 # C# - 100 days of code
 
+## Day79. [LeetCode-#1200] Minimum Absolute Difference
+
+#### Purpose
+>Find all pairs of elements with the minimum absolute difference of any two elements. 
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution
+    {
+        public IList<IList<int>> MinimumAbsDifference(int[] arr)
+        {
+            Array.Sort(arr);
+
+            var dict = new Dictionary<int, List<(int, int)>>();
+
+            for (var i = 0; i < arr.Length - 1; i++)
+            {
+                var diff = arr[i + 1] - arr[i];
+
+                if (dict.ContainsKey(diff))
+                {
+                    dict[diff].Add((arr[i], arr[i + 1]));
+                }
+                else
+                {
+                    dict.Add(diff, new List<(int, int)> { (arr[i], arr[i + 1]) });
+                }
+            }
+
+            return dict[dict.Keys.Min()].Select(x => new[] { x.Item1, x.Item2 }).ToArray();
+        }
+    }
+
+#### Success
+![](PNG/1200.MinimumAbsoluteDifference.PNG)
+
 ## Day78 [LeetCode-#897] Increasing Order Search Tree
 
 #### Purpose
@@ -32,6 +73,7 @@
             Search(root.right, list);
         }
     }
+    
 #### Success
 ![](PNG/)
 
