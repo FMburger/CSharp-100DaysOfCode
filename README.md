@@ -1,5 +1,33 @@
 # C# - 100 days of code
 
+## Day80. [LeetCode-#1431] Kids With the Greatest Number of Candies
+
+#### Purpose
+
+#### Topic
+> Array
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public IList<bool> KidsWithCandies(int[] candies, int extraCandies) {
+            int len = candies.Length;
+            bool[] result = new bool[len];
+            int max = 0;
+            for (int i = 0; i < len; i++)
+                max = Math.Max(max, candies[i]);
+            for (int j = 0; j < len; j++)
+                result[j] = candies[j] + extraCandies >= max;
+            return result;
+        }
+    }
+
+#### Success
+![](PNG/)
+
 ## Day79. [LeetCode-#1200] Minimum Absolute Difference
 
 #### Purpose
