@@ -1,5 +1,9 @@
 # C# - 100 days of code
 
+## Day81 Update Snippets In VSCode
+
+#### Update Snippets
+
 ## Day80. [LeetCode-#1431] Kids With the Greatest Number of Candies
 
 #### Purpose
