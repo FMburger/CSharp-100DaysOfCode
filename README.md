@@ -1,5 +1,32 @@
 # C# - 100 days of code
 
+## Day82 [LeetCode-#1528] Shuffle String
+
+#### Purpose
+> Return the shuffled string.
+
+#### Topic
+> Sorting
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public string RestoreString(string s, int[] indices) {
+            char[] resultChars = new char[s.Length];
+                for (int i = 0; i < indices.Length; i++)
+                {
+                    resultChars[indices[i]] = s[i];
+                }
+                
+                return new string(resultChars);
+        }
+    }
+#### Success
+![](PNG/1528.ShuffleString.PNG)
+
 ## Day81 Update Snippets In VSCode
 
 #### Update Snippets
