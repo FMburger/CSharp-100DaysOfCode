@@ -1,6 +1,6 @@
 # C# - 100 days of code
 
-## Day82 [LeetCode-#1528] Shuffle String
+## Day82. [LeetCode-#1528] Shuffle String
 
 #### Purpose
 > Return the shuffled string.
@@ -27,7 +27,7 @@
 #### Success
 ![](PNG/1528.ShuffleString.PNG)
 
-## Day81 Update Snippets In VSCode
+## Day81. Update Snippets In VSCode
 
 #### Update Snippets
 
@@ -100,7 +100,7 @@
 #### Success
 ![](PNG/1200.MinimumAbsoluteDifference.PNG)
 
-## Day78 [LeetCode-#897] Increasing Order Search Tree
+## Day78. [LeetCode-#897] Increasing Order Search Tree
 
 #### Purpose
 
@@ -136,7 +136,7 @@
 #### Success
 ![](PNG/)
 
-## Day77 [LeetCode-#1046] Last Stone Weight
+## Day77. [LeetCode-#1046] Last Stone Weight
 
 #### Purpose
 > Return the weight of this stone 
@@ -176,7 +176,7 @@
 #### Success
 ![](PNG/1046.LastStoneWeight.PNG)
 
-## Day76 [LeetCode-#349] Intersection of Two Arrays
+## Day76. [LeetCode-#349] Intersection of Two Arrays
 
 #### Purpose
 > Write a function to compute their intersection.
@@ -214,7 +214,7 @@
 #### Success
 ![](PNG/349.IntersectionofTwoArrays.PNG)
 
-## Day75 [LeetCode-#1380] Lucky Numbers in a Matrix
+## Day75. [LeetCode-#1380] Lucky Numbers in a Matrix
 
 #### Purpose
 > Return all lucky numbers in the matrix in any order.
@@ -258,11 +258,11 @@
 #### Success
 ![](PNG/1380.LuckyNumbersinaMatrix.PNG)
 
-## Day74 Update Snippets In VSCode
+## Day74. Update Snippets In VSCode
 
 #### Update Snippets
 
-## Day73 [LeetCode-#35] Search Insert Position
+## Day73. [LeetCode-#35] Search Insert Position
 
 #### Purpose
 >  Return the index if the target is found. If not, return the index where it would be if it were inserted in order.
@@ -284,7 +284,7 @@
 #### Success
 ![](PNG/)
 
-## Day72 [LeetCode-#15] 3Sum
+## Day72. [LeetCode-#15] 3Sum
 
 #### Purpose
 > Find all unique triplets in the array which gives the sum of zero.
@@ -332,7 +332,7 @@
 #### Success
 ![](PNG/15.3Sum.PNG)
 
-## Day71 [LeetCode-#53] Maximum Subarray
+## Day71. [LeetCode-#53] Maximum Subarray
 
 #### Purpose
 > Find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
@@ -370,7 +370,7 @@
 #### Success
 ![](PNG/53.MaximumSubarray.PNG)
 
-## Day70 [LeetCode-#1716] Calculate Money in Leetcode Bank
+## Day70. [LeetCode-#1716] Calculate Money in Leetcode Bank
 
 #### Purpose
 > Calculate Money in Leetcode Bank
@@ -400,7 +400,7 @@
 #### Success
 ![](PNG/1716.CalculateMoneyinLeetcodeBank.PNG)
 
-## Day69 [LeetCode-#141] Linked List Cycle
+## Day69. [LeetCode-#141] Linked List Cycle
 
 #### Purpose
 
@@ -432,7 +432,7 @@
 #### Success
 ![](PNG/141.LinkedListCycle.PNG)
 
-## Day68 [LeetCode-#461] Hamming Distance
+## Day68. [LeetCode-#461] Hamming Distance
 ![](PNG/HammingDistance.png)
 
 #### Purpose
@@ -460,11 +460,11 @@ Calculate Hamming Distance
 #### Success
 ![](PNG/461.HammingDistance.PNG)
 
-## Day67 Update Snippets In VSCode
+## Day67. Update Snippets In VSCode
 
 #### Update Snippets
 
-## Day66 [LeetCode-#226] Invert Binary Tree
+## Day66. [LeetCode-#226] Invert Binary Tree
 
 #### Purpose
 > Invert a binary tree.
@@ -499,7 +499,7 @@ Calculate Hamming Distance
 #### Success
 ![](PNG/226.InvertBinaryTree.PNG)
 
-## Day65 [LeetCode-#589] N-ary Tree Preorder Traversal
+## Day65. [LeetCode-#589] N-ary Tree Preorder Traversal
 
 #### Purpose
 > return the preorder traversal of its nodes' values.
@@ -533,7 +533,7 @@ Calculate Hamming Distance
 #### Success
 ![](PNG/589.N-aryTreePreorderTraversal.PNG)
 
-## Day64 [LeetCode-#100] Same Tree
+## Day64. [LeetCode-#100] Same Tree
 
 #### Purpose
 
