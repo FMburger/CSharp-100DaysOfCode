@@ -1,5 +1,38 @@
 # C# - 100 days of code
 
+## Day83 [LeetCode-#242] Valid Anagram
+
+#### Purpose
+> Write a function to determine if t is an anagram of s
+
+#### Topic
+> Sort
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public bool IsAnagram(string s, string t) {
+            if (s.Length != t.Length)
+                return false;
+            
+            char[] source = s.ToCharArray(), target = t.ToCharArray();
+            
+            Array.Sort(source);
+            Array.Sort(target);
+            
+            for (int i = 0; i <= source.Length - 1; i++)
+                if(source[i] != target[i])
+                    return false;
+            
+            return true;
+        }
+    }
+#### Success
+![](PNG/242.ValidAnagram.PNG)
+
 ## Day82. [LeetCode-#1528] Shuffle String
 
 #### Purpose
