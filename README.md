@@ -1,6 +1,34 @@
 # C# - 100 days of code
 
-## Day83 [LeetCode-#242] Valid Anagram
+## Day84. [LeetCode-#561] Array Partition I
+
+#### Purpose
+> Return the maximized sum.
+
+#### Topic
+
+#### Skill
+
+#### Step by step
+
+#### Code
+    public class Solution {
+        public int ArrayPairSum(int[] nums) {
+                int sum = 0;
+
+                Array.Sort(nums);
+
+                for (var i = 0; i < nums.Length; i += 2)
+                    sum += nums[i];
+
+                return sum;
+        }
+    }
+    
+#### Success
+![](PNG/561.ArrayPartitionI.PNG)
+
+## Day83. [LeetCode-#242] Valid Anagram
 
 #### Purpose
 > Write a function to determine if t is an anagram of s
@@ -17,16 +45,12 @@
         public bool IsAnagram(string s, string t) {
             if (s.Length != t.Length)
                 return false;
-            
             char[] source = s.ToCharArray(), target = t.ToCharArray();
-            
             Array.Sort(source);
             Array.Sort(target);
-            
             for (int i = 0; i <= source.Length - 1; i++)
                 if(source[i] != target[i])
                     return false;
-            
             return true;
         }
     }
